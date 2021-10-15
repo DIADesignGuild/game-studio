@@ -1,4 +1,5 @@
 # game-studio
+
 The Game Studio is a place for DIA members to learn game making and produce game-related deliverables.
 
 This repo is used to host studio documentation, game projects, and any other resources we intend to share amongst ourselves.
