@@ -1,6 +1,7 @@
 # Game Studio Proposal
 
 v0.3 — Justin Kim — Oct. 4th, 2021
+
 * Changed title to *Game Studio Proposal*
 * Changed *Deliverables* to *Projects*
 * Added more game inspirations under *Projects*
@@ -18,11 +19,13 @@ Many beginners want to make games but don’t know how to start. And when they d
 This studio initiative aims to get participants designing and developing games ASAP.
 
 The Game Studio’s goals include, but aren’t limited to:
+
 * maintaining a safe, inviting space for creative self-expression,
 * helping teach the basics of independent game making,
 * and providing a collaborative community-spirit.
 
 Success for this initiative includes:
+
 * Apprentices independently making and managing their own game projects.
 * Apprentices learning additional skills for generalist game making.
 * Apprentices helping with others’ learning and asking for help themselves.
@@ -47,16 +50,20 @@ Along the way we’ll research what genres/styles of games people are interested
 ### Individual project scope
 
 Games should be:
+
 * lo-fi, 
 * simple/small-scope, 
 * and made quickly 
+
 to prevent burnout and encourage rapid iteration. As creating games can be a complex and intensive process, final deliverables are MVP prototypes. This way we focus on key outcomes such as:
+
 * encouraging alternative fidelities to current market standards 
 * and exploring unusual and innovative designs.
 
 ### Inspirations
 
 DIA’s Game Studio has a plethora of well-established studios at various scopes to draw inspiration from:
+
 * <https://sokpop.co/>
 * [SUKEBAN GAMES OFFICIAL WEBFRONT – Aim for the top!](https://sukeban.moe/)
 * [Vlambeer](https://www.vlambeer.com/)
@@ -68,21 +75,21 @@ DIA’s Game Studio has a plethora of well-established studios at various scopes
 ### Project schedule
 
 * Project 00 (P00):
- * Team: Justin
- * Time: ~3 days
- * Goal: Demonstrate Justin isn’t all hot-air and can guide others in making games.
+    * Team: Justin
+    * Time: ~3 days
+    * Goal: Demonstrate Justin isn’t all hot-air and can guide others in making games.
 * Project 01 (P01):
- *Team: Aaron, Justin
- *Time: TBD (ETC: 1 week)
- *Goal: Try out the game making process with 2 people.
+    * Team: Aaron, Justin
+    * Time: TBD (ETC: 1 week)
+    * Goal: Try out the game making process with 2 people.
 * Project 02 (P02):
- * Team: Aaron, Amber, Justin
- * Time: TBD (ETC: 1 week)
- * Goal: Try out the game making process with 3 people.
+    * Team: Aaron, Amber, Justin
+    * Time: TBD (ETC: 1 week)
+    * Goal: Try out the game making process with 3 people.
 * Project 03 (P03):
- * Team: Aaron, Alex, Amber, Justin
- * Time: TBD (ETC: 1 week)
- * Goal: Try out the game making process with 4 people.
+    * Team: Aaron, Alex, Amber, Justin
+    * Time: TBD (ETC: 1 week)
+    * Goal: Try out the game making process with 4 people.
 
 ## Culture
 
@@ -118,6 +125,7 @@ This initiative aims to help both apprentices and mentors who wish to begin lear
 * Apprentices will take control of their own learning while helping one another succeed. 
 
 Expectations for project roles vary depending on the project. For the most part, teams can expect one of two approaches:
+
 * **Specialization.** The traditional model of game making where one person is dedicated to fulfilling one discipline. Ex: One person does coding, another handles music, etc.
 * **Generalist.** This method sees everyone taking on multiple hats to finish modular tasks. Ex: The team may converge to finalize what the core mechanics are. Then they diverge to individually finish a level.
 
@@ -132,15 +140,16 @@ Project cadences are flexible at the moment, with a currently estimated 1-2 proj
 #### An example project
 
 Scope: 1 week broken up into phases for planning and execution. Preferred processes are retrofitted if necessary.
+
 * **Planning.** Team decides MVP requirements and individual expectations.
 * **Execution.** Team builds MVP and finalizes necessary assets.
 * **Organization.** Team structure finalized before starting project development.
- * Specialized vs Generalist.
+    * Specialized vs Generalist.
 * **Tools.** Determined before joining a project as part of the project proposal.
 * **Focus.** What aspect of production is the focus of the project?
- * Is it a heavy-graphics game? Music game? Narrative game? Etc.
+    * Is it a heavy-graphics game? Music game? Narrative game? Etc.
 * **Self-reflection.** What have we learned from making this game? 
- * Can be in the form of post-project debriefs or self-reflection blog posts.
+    * Can be in the form of post-project debriefs or self-reflection blog posts.
 
 ### Tools
 
@@ -155,20 +164,22 @@ Scope: 1 week broken up into phases for planning and execution. Preferred proces
 Below are some popular game making tools:
 
 *General tools*
+
 * [PICO-8 Fantasy Console](https://www.lexaloffle.com/pico-8.php)
 * [Unity](https://unity.com/)
 * [Unreal Engine](https://www.unrealengine.com/en-US/)
 * [Godot](https://godotengine.org/)
 
 *Specialized tools*
+
 * RPGs
- * [GB Studio](https://www.gbstudio.dev/)
- * [RPG Maker](https://www.rpgmakerweb.com/)
+    * [GB Studio](https://www.gbstudio.dev/)
+    * [RPG Maker](https://www.rpgmakerweb.com/)
 * Interactive Fiction
- * [Twine](https://twinery.org/)
- * [Inform ](http://inform7.com/)
- * [Ren’Py](https://www.renpy.org/)
- * [Bitsy](https://ledoux.itch.io/bitsy)
+    * [Twine](https://twinery.org/)
+    * [Inform ](http://inform7.com/)
+    * [Ren’Py](https://www.renpy.org/)
+    * [Bitsy](https://ledoux.itch.io/bitsy)
 
 For the most part team members can expect to use Pico-8 for a number of reasons, namely efficiency and a low-barrier of entry. But one reason to use other tools is to target their respective audiences. 
 
@@ -187,6 +198,7 @@ Gradually members will contribute to a studio toolbox that includes resources su
 ### Project format
 
 A game proposal template will be made soon but for now it should include the following elements:
+
 * Premise
 * Core mechanics and high-level game loop
 * Team and organization
