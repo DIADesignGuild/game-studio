@@ -1,12 +1,26 @@
 # Game Studio Proposal
 
-v0.3 — Justin Kim — Oct. 4th, 2021
+v0.4 — Justin Kim — Oct. 19th, 2021
+
+* Specified participant ownership of projects under *Projects* (needs review by Grace and Kao)
+
+v0.3 — Justin Kim — Oct. 15th, 2021
 
 * Changed title to *Game Studio Proposal*
 * Changed *Deliverables* to *Projects*
 * Added more game inspirations under *Projects*
 * Added projected project schedule under *Scope*
 * Added success criteria under *Mission*
+
+v0.2 — Justin Kim — Oct. 14th, 2021
+
+* Shortened version of v0.1
+
+v0.1 — Justin Kim — Oct. 10th, 2021
+
+* First draft.
+* ~~Needs origin story from Grace~~
+* Needs to be shortened.
 
 ## Introduction
 
@@ -190,6 +204,15 @@ Eventually apprentices can take on a shared curriculum of game projects that tea
 ## Projects
 
 The Game Studio is inclusive of both game making and non-game making outputs. Basically, studio members are welcome to work on games and anything game-related.
+
+## Ownership (under construction)
+
+Game Studio projects are encouraged to be open-source in the spirit of sharing knowledge with others. That said, studio members can consult [choosealicense.com](https://choosealicense.com/) to see which license works best for them. 
+
+However DIA Design Guild does enforce some restrictions:
+
+* Non-profit games: MIT License?
+* For-profit games: No license?
 
 ### Studio-specific output
 
