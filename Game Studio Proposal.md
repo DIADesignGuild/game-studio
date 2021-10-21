@@ -3,6 +3,7 @@
 v0.4 — Justin Kim — Oct. 19th, 2021
 
 * Specified participant ownership of projects under *Projects* (needs review by Grace and Kao)
+* Edited schedule
 
 v0.3 — Justin Kim — Oct. 15th, 2021
 
@@ -96,15 +97,7 @@ DIA’s Game Studio has a plethora of well-established studios at various scopes
     * Team: Aaron, Justin
     * Time: TBD (ETC: 1 week)
     * Goal: Try out the game making process with 2 people.
-* Project 02 (P02):
-    * Team: Aaron, Amber, Justin
-    * Time: TBD (ETC: 1 week)
-    * Goal: Try out the game making process with 3 people.
-* Project 03 (P03):
-    * Team: Aaron, Alex, Amber, Justin
-    * Time: TBD (ETC: 1 week)
-    * Goal: Try out the game making process with 4 people.
-
+    
 ## Culture
 
 ### Studio culture
