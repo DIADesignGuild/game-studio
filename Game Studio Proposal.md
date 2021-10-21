@@ -2,8 +2,9 @@
 
 v0.4 — Justin Kim — Oct. 19th, 2021
 
-* Specified participant ownership of projects under *Projects* (needs review by Grace and Kao)
-* Edited schedule
+* Specified participant ownership of projects under *Projects* (needs review by Grace and Kao).
+* Edited schedule.
+* Linked P00 proposal.
 
 v0.3 — Justin Kim — Oct. 15th, 2021
 
