@@ -89,7 +89,7 @@ DIA’s Game Studio has a plethora of well-established studios at various scopes
 
 ### Project schedule
 
-* Project 00 (P00):
+* [Project 00 (P00)]():
     * Team: Justin
     * Time: ~3 days
     * Goal: Demonstrate Justin isn’t all hot-air and can guide others in making games.
