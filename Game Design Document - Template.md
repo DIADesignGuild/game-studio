@@ -43,7 +43,7 @@ Where is the player?
 
 ### Dominant play
 
-what is the dominant mode of play? Role-playing? Epxressive play? Competitive?
+What is the dominant mode of play? Role-playing? Epxressive play? Competitive?
 
 ## High-level game loop
 
