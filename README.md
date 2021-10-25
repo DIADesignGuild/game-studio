@@ -14,5 +14,5 @@ For questions contact Justin Kim at justin@diadesign.io
 
 P00
 - Team: Justin
-- Appx. ETS: 10/21 \- 10/22
-- Appx. ETC: 10/24 \- 10/25
+- Started: 10/22
+- Appx. ETC: Delayed, due to illness
