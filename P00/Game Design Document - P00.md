@@ -5,6 +5,10 @@ v0.1 - Justin Kim - Oct. 19th, 2021
 - Basic template to get the ball rolling.
 - Questions are meant to encourage brainstorming and ideation.
 
+v0.2 - Justin Kim - Oct. 27th-28th, 2021
+
+- Changed "Obstacles" to "Meteors".
+
 ## Macklin & Sharp's Basic Elements, SoP, and Dominant Play
 
 ### Actions
@@ -13,17 +17,25 @@ The player can move the ship up and down on the screen.
 
 ### Goals
 
-Play ends when the player's ship crashes.
+Play ends when the player's ship crashes into a meteor.
 
 ### Objects
 
-The player controls the ship to avoid colliding with various incoming obstacles.
+Object list:
+- Ship
+- Meteor
+
+The player controls the ship to avoid colliding with various incoming meteors.
 
 The player can move the ship to the top and bottom edges of the ship and only be blocked from moving past the edge.
 
+Meteors move from past the right edge of the screen and move to the left until they're completely past the left edge of the screen.
+
 ### Rules
 
-The player loses upon immediately colliding with an obstacle.
+- The player moves the ship using the up and down arrow keys.
+- The player loses upon immediately colliding with a meteor (sfx plays).
+- The player can't move past the edge of the screen.
 
 ### Playspace
 

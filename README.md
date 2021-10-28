@@ -13,6 +13,9 @@ For questions contact Justin Kim at justin@diadesign.io
 ## Current projects
 
 P00
+
 - Team: Justin
-- Started: 10/22
-- Appx. ETC: Delayed, due to illness
+- Started: 10/22/21
+- Paused 10/23/21, due to illness.
+- Resumed: 10/27/21
+- Appx. ETC: 10/28/21

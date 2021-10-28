@@ -1,0 +1,9 @@
+- Didn't think to calculate collision detection until I started doing it in Pico-8.
+- Took me a little under 2 hours to get the ship moving and one meteor animating across the screen.
+- Finished implementing in about 3 hours.
+- Problem: Didn't work out algorithm (for ex: collision detection) beforehand, had to struggle during implementation.
+    - But it worked out? I guess? Just checking for the front collision helped in the end.
+- Questions for apprentices:
+    - What are your thoughts as you played this game?
+    - What is missing from this prototype?
+    - How would you fix this prototype?
