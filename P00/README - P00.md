@@ -18,3 +18,5 @@ How to play:
 
 - Up arrow key: Move ship up. 
 - Down arrow key: Move ship down.
+
+Credits to Dylan Bennett's [*Game Dvelopment with PICO-8*](https://mboffin.itch.io/gamedev-with-pico-8-issue1) for algorithms.
