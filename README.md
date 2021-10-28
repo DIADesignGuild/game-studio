@@ -18,4 +18,4 @@ P00
 - Started: 10/22/21
 - Paused 10/23/21, due to illness.
 - Resumed: 10/27/21
-- Appx. ETC: 10/28/21
+- Finished: 10/28/21
