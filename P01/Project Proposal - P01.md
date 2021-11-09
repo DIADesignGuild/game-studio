@@ -1,4 +1,4 @@
-# Project Proposal Template
+# Project01 Proposal
 
 v0.1 - Justin Kim - Nov. 08th, 2021
 
