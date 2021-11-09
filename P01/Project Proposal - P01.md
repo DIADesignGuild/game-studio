@@ -29,7 +29,7 @@ Figma:
 Fantasy console: 
 
 - [PICO-8](https://www.lexaloffle.com/pico-8.php). Costs $15 and has the best support and community. Lots of resources for learning. Justin already knows PICO-8.
-- [TIC-80](https://tic80.com/). Free but not as well-supported and not sure about the community status. Justin doesn't know TIC-80.
+- [Pixel Vision 8](https://pixelvision8.itch.io/pv8). Open-source with more features. Lets you create games in both Lua and C#. More flexible than PICO-8 but loses the benefits of forced constraints. Justin needs to learn this one too.
 
 Final decision: Tell Aaron about the differences and ask for his thoughts. Justin already has and prefers PICO-8, but believes it's not fair to ask Aaron to spend money.
 
