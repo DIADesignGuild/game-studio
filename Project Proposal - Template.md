@@ -1,5 +1,9 @@
 # Project Proposal Template
 
+v0.2 - Justin Kim - Nov. 08th, 2021
+
+- Added section to specify what type of prototype would be made.
+
 v0.1 - Justin Kim - Oct. 19th, 2021
 
 - Makeshift version to get the ball rolling. 
@@ -25,6 +29,11 @@ Like a movie with a good concept, you can describe a game in one sentence, or a 
 ## Preferred tools
 
 - What are you using to build the prototype?
+
+## Prototype goals
+
+- What is the hypothesis? What questions about the game do we need answered?
+- What kind of prototype will be made? Art and sound? Playable? Physical?
 
 ## Project timeline and goals
 

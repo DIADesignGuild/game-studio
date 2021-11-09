@@ -21,7 +21,7 @@ Github:
 - Host game code and documentation. 
 - Use game-studio repo in a folder called "P00".
 
-Pico-8: 
+PICO-8: 
 
 - Build game itself. 
 - Lets the team make graphics, sound, and code inside of it.
