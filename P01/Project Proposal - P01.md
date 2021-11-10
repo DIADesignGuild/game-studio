@@ -52,10 +52,11 @@ A:
 
 ## Project timeline and goals
 
-Timeline is subject to change after discussing with Aaron his availability. The proposed timeline is 4 days.
+Timeline is subject to change after discussing with Aaron his availability. The proposed timeline is 5 days.
 
 Meetings are flexible and up for discussion. The proposed cadence is:
 
+- 1 meeting to discuss general logistics,
 - 1 meeting for creating the game design document (and any other related materials),
 - 1 meeting for brainstorming paper prototypes, 
 - 1 meeting for discussing the playable prototype, and 

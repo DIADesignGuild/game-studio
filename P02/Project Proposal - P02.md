@@ -51,10 +51,11 @@ A:
 
 ## Project timeline and goals
 
-Timeline is subject to change after discussing with Amber her availability. The proposed timeline is 4-5 days. Additional days may be required to learn any new tools.
+Timeline is subject to change after discussing with Amber her availability. The proposed timeline is 5-6 days. Additional days may be required to learn any new tools.
 
 Meetings are flexible and up for discussion. The proposed cadence is:
 
+- 1 meeting to discuss general logistics,
 - 1 meeting for creating the game design document (and any other related materials),
 - 1 meeting for brainstorming paper prototypes, and
 - 1 meeting for discussing core game prototype.
