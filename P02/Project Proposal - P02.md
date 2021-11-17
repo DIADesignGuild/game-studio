@@ -56,8 +56,8 @@ Timeline is subject to change after discussing with Amber her availability. The 
 Meetings are flexible and up for discussion. The proposed cadence is:
 
 - 1 meeting to discuss general logistics,
-- 1 meeting for creating the game design document (and any other related materials),
-- 1 meeting for brainstorming paper prototypes, and
+- ~~1 meeting for creating the game design document (and any other related materials),~~
+- 1 meeting for ideation + brainstorming paper prototypes, and
 - 1 meeting for discussing core game prototype.
 - 1-2 meetings for implementing the core game prototype (depends on fantasy console chosen).
 
@@ -66,4 +66,4 @@ Milestones:
 - Finished paper prototypes (designs).
 - Finished core game prototype.
 
-P01 reaches completion when a core game prototype is finalized.
+P02 reaches completion when a core game prototype is finalized.
