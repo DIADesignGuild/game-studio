@@ -16,6 +16,7 @@ P02
 
 - Team: Amber, Justin
 - Started: 11/11/21
+- Current progress: Just finished an awesome brainstorming session!
 
 P00
 
