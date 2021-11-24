@@ -33,4 +33,10 @@
 
 ### Ideation 2 notes
 
-- 
+- Chosen ideas to implement: 
+	- have pewpew sounds for space gun [sound]
+	- horizontal movement [coding]
+	- drifting [coding]
+	- varying speeds of meteors [coding]
+	- (Put w/ instructions) There’s a story where you’re escaping from the evil empire that bears no resemblance to an organization in a big-budget sci-fi film series [writing]
+- I think I could have given her more autonomy in choosing what ideas to implement

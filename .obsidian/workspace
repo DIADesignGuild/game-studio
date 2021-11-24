@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "92b78f276708b97c",
+    "type": "split",
+    "children": [
+      {
+        "id": "66c62e24f0b91466",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "P02/Paper Prototyping - P02.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f14c34d9ed164981",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ce043660687fdbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1016c6e369e91c44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c9a9738d68cfe08b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9f2415713e89eb0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "227a070844e7d163",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0d0cee65a029b24",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "P02/Paper Prototyping - P02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "66c62e24f0b91466",
+  "lastOpenFiles": [
+    "P02/Paper Prototyping - P02.md",
+    "P02/Game Design Document - P02.md",
+    "P02/Ideation - P02.md"
+  ]
+}
