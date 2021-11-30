@@ -6,18 +6,18 @@ v0.1 - Justin Kim - Nov. 08th, 2021
 
 ## Title and premise
 
-Candyvania. 2D traditional Castlevania-style platformer where one player fights five 1 min. waves of candy demons inside a giant liqorice stick to save the world from the sweets of the night.
+Countdown (P00 continuation). A short side-scrolling Galaga-variant with retro graphics for a single player where your broken spaceship escapes waves of enemies before it explodes.
  
 ## Team and organization
 
 Team: 
 
-- Justin (Project manager & Generalist)
-- Aaron (Generalist)
+- Justin (Project manager, Generalist, Designer)
+- Amber (Coder)
 
-Justin will journal and record his notes, progress, observations, etc. He will also guide Aaron through the game making process.
+Justin will journal and record his notes, progress, observations, etc. He will also guide Amber through the game making process.
 
-Aaron will focus on learning and practicing the design process while learning whatever is necessary to make a game.
+Amber will focus on learning and practicing the design process while learning to implement games in a fantasy console.
 
 ## Preferred tools
 
@@ -31,7 +31,7 @@ Fantasy console:
 - [PICO-8](https://www.lexaloffle.com/pico-8.php). Costs $15 and has the best support and community. Lots of resources for learning. Justin already knows PICO-8.
 - [Pixel Vision 8](https://pixelvision8.itch.io/pv8). Open-source with more features. Lets you create games in both Lua and C#. More flexible than PICO-8 but loses the benefits of forced constraints. Justin needs to learn this one too.
 
-Final decision: Tell Aaron about the differences and ask for his thoughts. Justin already has and prefers PICO-8, but believes it's not fair to ask Aaron to spend money.
+Final decision: Tell Amber about the differences and ask for her thoughts. Justin already has and prefers PICO-8, but believes it's not fair to ask Amber to spend money.
 
 Github: 
 
@@ -41,30 +41,29 @@ Github:
 ## Prototype goals
 
 Q: 
-
-- How might we explore this concept and understand what its requirements are?
-- How might we better understand the play experience of this game pertaining to what players can do in it?
+- How can we better understand the limitations of P00? 
+- It's already a playable prototype. 
 
 A: 
 
-- Create paper design prototypes in Figma to explore different mechanics.
-- Create a playable prototype in a fantasy console to focus on in-game actions/verbs.
+- Explore more ideas for refining the core gameplay experience with paper design prototypes in Figma.
+- Refine the playable prototype into a core game prototype in Figma by adding in more mechanics, assets, etc.
 
 ## Project timeline and goals
 
-Timeline is subject to change after discussing with Aaron his availability. The proposed timeline is 5 days.
+Timeline is subject to change after discussing with Amber her availability. The proposed timeline is 5-6 days. Additional days may be required to learn any new tools.
 
 Meetings are flexible and up for discussion. The proposed cadence is:
 
 - 1 meeting to discuss general logistics,
-- 1 meeting for creating the game design document (and any other related materials),
-- 1 meeting for brainstorming paper prototypes, 
-- 1 meeting for discussing the playable prototype, and 
-- 1 meeting for implementing the playable prototype.
+- ~~1 meeting for creating the game design document (and any other related materials),~~
+- 1 meeting for ideation + brainstorming paper prototypes, and
+- 1 meeting for discussing core game prototype.
+- 1-2 meetings for implementing the core game prototype (depends on fantasy console chosen).
 
 Milestones:
 
 - Finished paper prototypes (designs).
-- Finished playable game prototype.
+- Finished core game prototype.
 
-P01 reaches completion when a playable prototype is finalized. P01 can continue to be refined in a future project.
+P01 reaches completion when a core game prototype is finalized.

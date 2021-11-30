@@ -1,10 +1,10 @@
-# Project02 Ideation
+# Project01 Ideation
 
 ## Agenda
 
 ### Ideation 1
 
-- Share [FigJam file](https://www.figma.com/file/aBs8LAz2j8Jr4bAB3aXHt4/P02_Ideating?node-id=0%3A1)
+- Share [FigJam file](https://www.figma.com/file/aBs8LAz2j8Jr4bAB3aXHt4/P01_Ideating?node-id=0%3A1)
 - Context: P00 lets you move up and down on the screen to avoid incoming meteors. Each meteor comes one at a time, at the same speed, and are of the same size.
 - Prompt: How can we improve P00? Brainstorm new features to include in the new prototype.
 - Rules:
@@ -19,7 +19,7 @@
 
 ### Ideation 2
 
-- Share [FigJam file](https://www.figma.com/file/aBs8LAz2j8Jr4bAB3aXHt4/P02_Ideating?node-id=0%3A1)
+- Share [FigJam file](https://www.figma.com/file/aBs8LAz2j8Jr4bAB3aXHt4/P01_Ideating?node-id=0%3A1)
 - Narrow down agreed ideas to 1-2 potential features we can explore.
     - Combine them, cull some we don't like anymore, rewrite some, etc.
 - 2-3 more rounds of narrowing ideas until we ge 1-2 potential features

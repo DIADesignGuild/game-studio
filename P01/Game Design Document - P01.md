@@ -1,13 +1,13 @@
 # Game Design Document Template
 
+v0.2 - Justin Kim - Oct. 27th-28th, 2021
+
+- Changed "Obstacles" to "Meteors".
+
 v0.1 - Justin Kim - Oct. 19th, 2021
 
 - Basic template to get the ball rolling.
 - Questions are meant to encourage brainstorming and ideation.
-
-v0.2 - Justin Kim - Oct. 27th-28th, 2021
-
-- Changed "Obstacles" to "Meteors".
 
 ## Macklin & Sharp's Basic Elements, SoP, and Dominant Play
 

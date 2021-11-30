@@ -12,11 +12,13 @@ For questions contact Justin Kim at justin@diadesign.io
 
 ## Current projects
 
-P02
+P01
 
 - Team: Amber, Justin
 - Started: 11/11/21
-- Current progress: Just finished an awesome brainstorming session!
+- Current progress: 
+  - Just finished an awesome brainstorming session!
+  - Finished up brainstorming and digital paper prototyping. Onto implementing a prototype!
 
 P00
 
