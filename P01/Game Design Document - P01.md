@@ -1,5 +1,9 @@
 # Game Design Document Template
 
+v0.3 - Justin Kim - Dec. 09th, 2021
+
+- Updated Actions and Objects with new rules for horizontal movement, drifting, and meteor speeds. 
+
 v0.2 - Justin Kim - Oct. 27th-28th, 2021
 
 - Changed "Obstacles" to "Meteors".
