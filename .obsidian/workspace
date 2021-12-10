@@ -1,17 +1,14 @@
 {
   "main": {
-    "id": "92b78f276708b97c",
+    "id": "5b4b25d204b5b3ba",
     "type": "split",
     "children": [
       {
-        "id": "66c62e24f0b91466",
+        "id": "fd7f668bd36fdf1a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "P02/Paper Prototyping - P02.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "P02/Paper Prototyping - P02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "66c62e24f0b91466",
+  "active": "fd7f668bd36fdf1a",
   "lastOpenFiles": [
     "P02/Paper Prototyping - P02.md",
     "P02/Game Design Document - P02.md",

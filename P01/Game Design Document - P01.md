@@ -13,7 +13,11 @@ v0.1 - Justin Kim - Oct. 19th, 2021
 
 ### Actions
 
-The player can move the ship up and down on the screen. 
+The player can move the ship horizontally and vertically on the screen. 
+
+When moving, the ship will "drift" by gradually decreasing velocity for x seconds (determine through self-testing) when the player releases the movement button(s). 
+
+If the ship is accelerating in one direction and the player suddenly moves in a different direction, then the ship will deaccelerate. 
 
 ### Goals
 
@@ -27,14 +31,15 @@ Object list:
 
 The player controls the ship to avoid colliding with various incoming meteors.
 
-The player can move the ship to the top and bottom edges of the ship and only be blocked from moving past the edge.
+The player can move the ship to the edges of the screen and is only blocked from moving past the edges.
 
-Meteors move from past the right edge of the screen and move to the left until they're completely past the left edge of the screen.
+Meteors move from past the right edge of the screen and move to the left until they're completely past the left edge of the screen. There are slow, medium, and fast meteors with speeds based on the ship's baseline speed. This way potential future updates such as speed-increasing power ups for the ship can be easily added.
 
 ### Rules
 
-- The player moves the ship using the up and down arrow keys.
+- The player moves the ship using the arrow keys.
 - The player loses upon immediately colliding with a meteor (sfx plays).
+  - During drifting, if the player has let go of the move button but the ship touches the meteor while drifting, the ship is destroyed.
 - The player can't move past the edge of the screen.
 
 ### Playspace
