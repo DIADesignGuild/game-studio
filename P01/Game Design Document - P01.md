@@ -1,4 +1,4 @@
-# Game Design Document Template
+# Game Design Document - P01
 
 v0.3 - Justin Kim - Dec. 09th, 2021
 
