@@ -19,6 +19,7 @@ P01
 - Current progress: 
   - Just finished an awesome brainstorming session!
   - Finished up brainstorming and digital paper prototyping. Onto implementing a prototype!
+  - Currently finishing up the P01 implementation.
 
 P00
 
