@@ -20,7 +20,7 @@ Justin is working on this as a personal/passion project for himself. Originally 
 - [Kishotenketsu](https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu)
 - Google Docs
   - Prettier formatting
-  - v0.1 is already implemented in it.
+  - v0.1 is already implemented as a [Google Docs file](https://docs.google.com/document/d/1bgnpU05j40BGx25Rpb4umxYWp0rPAaY6-49w2q-8cTs/edit?usp=sharing).
 
 ## Prototype goals
 
