@@ -12,8 +12,15 @@ For questions contact Justin Kim at justin@diadesign.io
 
 ## Current projects
 
-P01
+P02
+- Team: Justin
+- Started: 12/10/21
+- Current progress:
+  - v0.1 written.
+  - Added to Game Studio project roster.
+  - Retroactive proposal made.
 
+P01
 - Team: Amber, Justin
 - Started: 11/11/21
 - Current progress: 
@@ -22,7 +29,6 @@ P01
   - Currently finishing up the P01 implementation.
 
 P00
-
 - Team: Justin
 - Started: 10/22/21
 - Paused 10/23/21, due to illness.
