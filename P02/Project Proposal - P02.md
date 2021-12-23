@@ -6,7 +6,7 @@ v0.1 - Justin Kim - Dec. 19th, 2021
 
 ## Title and premise
 
-Kishotenketsu Tarot Spread Game
+[Kishotenketsu Tarot Spread Game](https://docs.google.com/document/d/1bgnpU05j40BGx25Rpb4umxYWp0rPAaY6-49w2q-8cTs/edit?usp=sharing)
 
 A short game for creative writing and Tarot beginners where you learn writing East Asian-style stories and Tarot reading by using [Kishotenketsu](https://www.gamedeveloper.com/design/the-structure-of-fun-learning-from-i-super-mario-3d-land-i-s-director#:~:text=First%2C%20you%20have,have%20your%20conclusion.) as both a narrative structure and Tarot card spread. 
  
