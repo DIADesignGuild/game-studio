@@ -9,7 +9,8 @@ v0.1 - Justin Kim - 12/19/21-12/23/21
 
 ## Gameplay description
 
-KTSG is a 
+KTSG is a game where you make a narrative using tarot cards.
+
 
 How would you describe your game? Think of it as a summary of the game's overall design. It should be understandable by someone who's never played this game before. 
 
