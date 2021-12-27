@@ -5,9 +5,9 @@
 - TODO Make it obvious that a setup should have a problem, etc. Study Kishotenketsu more closely. 
 - TODO Add explanation on how this helps you learn Kishotenketsu and synergizing card meanings, as well as challenging you to make a story with these constraints. 
 - TODO Add variant rules for multiple Kishotenketsu sub spreads.
-- Made a proposal.
-- TODO Make GDD
-- TODO Am I too restrictive by including Character and Starting situation cards?
+- Made P02 Proposal.
+- Made P02 GDd.
+- Removed Starting situation card (it's basically the Setup card)
 - TODO Rule(s) where you synergize meanings first OR you synergize as you write the story. 
 - Added game as P02 in DIA Game Studio.
 
