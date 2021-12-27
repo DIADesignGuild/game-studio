@@ -57,6 +57,7 @@ Players can:
 ### Playspace
 
 - Tarot spread itself
+  - 
 - Narrative space (mentally)
 - Writing space (physically)
 
@@ -67,14 +68,23 @@ Players can:
 
 - Narrative must fit in the Kishotenketsu structure.
 - Any Tarot frameworks are welcome, but this game assumes the RWS framework by default.
-- Pull 2 Meta cards for Character and Starting Situation.
+- ~~Pull 2 Meta cards for Character and Starting Situation.~~ <-- Starting situation is basically the Setup.
+- Pull 1 card for the Character.
 - Pull 4 Kishotenketsu cards for narrative.
 - Each successive card builds off its preceding card.
   - Ex: The Starting situation card should build off the Character card. The Setup card should build off the Starting situation card. Etc.
-- Time-constraints?
+- Time-constraints: Players must finish writing the act's line within the alotted time.
 - the Twist card is always reversed. 
 - Decide on a theme or setting beforehand?
 - Quick game to make quick 4-line stories.
+- Players randomly choose which act to write by shuffling the Aces and Royals of the 4 suites (to make shuffling easier) and drawing cards to form the order.
+  - Ace: Character card.
+  - Page: Setup card.
+  - Knight: Development card.
+  - Queen: Twist card.
+  - King: Conclusion card.
+  - Keep drawing cards until you get at least 1 Ace and 1 of each of the Royals. Use the first instance of each card to mark its place in the order.
+    - Ex: **Ace** **King** **Queen** Queen Ace **Page** King **Knight**
 
 
 - What can the player do/not do?
@@ -177,10 +187,10 @@ Flow chart showing intended use case(s) along with wireframes.
 
 ## Level design
 
-Level 1: 10 minute time limit, 4-sentences per act. 
-Level 2: 5 minute time limit, 2-sentences per act.
-Level 3: 30 second time limit, 1-sentence per act.
-Level 4: 30 second time limit, 5 words per act.
+Level 1: 10 minute time limit, up to 4-sentences per act. 
+Level 2: 5 minute time limit, up to 2-sentences per act.
+Level 3: 30 second time limit, up to 1-sentence per act.
+Level 4: 30 second time limit, up to 5 words per act.
 
 
 Each level should be explained by a brief overall summary and annotated map or other way to visualize and point out specific details in it.
