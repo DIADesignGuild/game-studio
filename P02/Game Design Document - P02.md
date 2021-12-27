@@ -9,7 +9,7 @@ v0.1 - Justin Kim - 12/19/21-12/23/21
 
 ## Gameplay description
 
-KTSG is a game where you make a narrative using tarot cards.
+KTSG is a game and writing framework where you make a narrative using tarot cards.
 
 
 How would you describe your game? Think of it as a summary of the game's overall design. It should be understandable by someone who's never played this game before. 
@@ -85,6 +85,10 @@ Players can:
   - King: Conclusion card.
   - Keep drawing cards until you get at least 1 Ace and 1 of each of the Royals. Use the first instance of each card to mark its place in the order.
     - Ex: **Ace** **King** **Queen** Queen Ace **Page** King **Knight**
+- Spread rules
+  - Horizontal line: Kishotenketsu plot points
+  - Vertical line: 
+    - Character's state of mind
 
 
 - What can the player do/not do?
