@@ -75,7 +75,7 @@ Players can:
   - Ex: The Starting situation card should build off the Character card. The Setup card should build off the Starting situation card. Etc.
 - Time-constraints: Players must finish writing the act's line within the alotted time.
 - the Twist card is always reversed. 
-- Decide on a theme or setting beforehand?
+- Decide on a theme or setting beforehand.
 - Quick game to make quick 4-line stories.
 - Players randomly choose which act to write by shuffling the Aces and Royals of the 4 suites (to make shuffling easier) and drawing cards to form the order.
   - Ace: Character card.
@@ -85,10 +85,17 @@ Players can:
   - King: Conclusion card.
   - Keep drawing cards until you get at least 1 Ace and 1 of each of the Royals. Use the first instance of each card to mark its place in the order.
     - Ex: **Ace** **King** **Queen** Queen Ace **Page** King **Knight**
-- Spread rules
-  - Horizontal line: Kishotenketsu plot points
-  - Vertical line: 
-    - Character's state of mind
+- ~~Spread rules~~
+  - ~~Horizontal line: Kishotenketsu plot points~~
+  - ~~Vertical line: ~~
+    - ~~Character's state of mind~~
+- MVP
+  - Each card reading's meaning should build off the previous card's meaning. 
+- ~~Synergizing card meanings~~
+  - ~~Look at 2 cards and see how they might be connected by asking questions like:~~
+    - ~~How are they visually connected? ~~
+      - ~~Is one card's figure facing the other card? Ex: Is the figure in the VII of Wands glaring at the child in XIX - The Sun?~~
+      - ~~Are some items facing towards another card? Ex: Is one of the VII of Wands's wands pointing at the child?~~
 
 
 - What can the player do/not do?
