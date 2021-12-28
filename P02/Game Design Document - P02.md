@@ -11,6 +11,7 @@ v0.1 - Justin Kim - 12/19/21-12/23/21
 
 KTSG is a game and writing framework where you make a narrative using tarot cards.
 
+As a creative exercise game, its main mechanics are constraints such as a set amount of time to finish writing under and a word-limit.
 
 How would you describe your game? Think of it as a summary of the game's overall design. It should be understandable by someone who's never played this game before. 
 
@@ -32,7 +33,7 @@ KTSG is meant to be a single-player experience for newbies to creative writing a
 
 ### Goals
 
-The player(s) finish the game when they've made at least 4 lines of text that form a cohesive narrative.
+The players must finish writing x amount of stories in y amount of time for z number of levels without going over the word and time limits.
 
 ### Actions
 
@@ -65,40 +66,43 @@ Players can:
 - Where is the player?
 
 ### Rules
-
-- Narrative must fit in the Kishotenketsu structure.
-- Any Tarot frameworks are welcome, but this game assumes the RWS framework by default.
-- ~~Pull 2 Meta cards for Character and Starting Situation.~~ <-- Starting situation is basically the Setup.
-- Pull 1 card for the Character.
-- Pull 4 Kishotenketsu cards for narrative.
-- Each successive card builds off its preceding card.
-  - Ex: The Starting situation card should build off the Character card. The Setup card should build off the Starting situation card. Etc.
-- Time-constraints: Players must finish writing the act's line within the alotted time.
-- the Twist card is always reversed. 
-- Decide on a theme or setting beforehand.
-- Quick game to make quick 4-line stories.
-- Players randomly choose which act to write by shuffling the Aces and Royals of the 4 suites (to make shuffling easier) and drawing cards to form the order.
-  - Ace: Character card.
-  - Page: Setup card.
-  - Knight: Development card.
-  - Queen: Twist card.
-  - King: Conclusion card.
-  - Keep drawing cards until you get at least 1 Ace and 1 of each of the Royals. Use the first instance of each card to mark its place in the order.
-    - Ex: **Ace** **King** **Queen** Queen Ace **Page** King **Knight**
-- ~~Spread rules~~
-  - ~~Horizontal line: Kishotenketsu plot points~~
-  - ~~Vertical line: ~~
-    - ~~Character's state of mind~~
-- MVP
-  - Each card reading's meaning should build off the previous card's meaning. 
-- ~~Synergizing card meanings~~
-  - ~~Look at 2 cards and see how they might be connected by asking questions like:~~
-    - ~~How are they visually connected? ~~
-      - ~~Is one card's figure facing the other card? Ex: Is the figure in the VII of Wands glaring at the child in XIX - The Sun?~~
-      - ~~Are some items facing towards another card? Ex: Is one of the VII of Wands's wands pointing at the child?~~
-
-
-- What can the player do/not do?
+1. Level 0.
+   1. Gather materials
+      1. Something to record narrative, current line-word limit, current level, number of rounds played, job title.
+      2. Digital/physical Tarot deck.
+         1. Any Tarot frameworks are welcome, but this game assumes the RWS framework by default.
+      3. Timer.
+2. Game loop (per level)
+   1. The game ends when the player finishes all levels and reaches the final promotion.
+   2. Drawing Meta cards.
+      1. Pull 1 card for the Setting.
+      2. Pull 1 card for the Character.
+   3. Draw Kishotenketsu cards.
+      1. Draw 1 card for Setup.
+      2. Draw 1 card for Development.
+      3. Draw 1 card for Twist.
+      4. Draw 1 card for conclusion.
+      5. Arrange into its sub-spread within the super-spread.
+      6. Repeat for however many episodes are specified by the current level.
+   4. Arrange Meta and Kishotenketsu cards into the super-spread.
+   5. Take the sum of numerical values of all Meta and Kishotenketsu cards, plugging that value into the formula, and referring to the Theme table, choose the theme corresponding the the sum's value.
+   6. Note current level's number/title, time and line-word limits, possibility for promotion.
+   7. Start round of play.
+      1. Player must write 1 line of words for each card.
+      2. Round ends in success if player meets current level's episode goal within time and line-word limits.
+      3. The player checks and sees if finishing the current level results in a promotion to the next job title.
+      4. Round ends in failure if player can't finish writing level's episode goal within the time and line-word limits.
+         1. If player fails to meet level goal within limits, then they may restart the level and play again.
+            1. Player increments their round counter.
+            2. Player keeps the lines a/o stories they wrote from the previous round to count towards the current level's episode goal and continue writing by building off what they already have written.
+            3. However players must also lower the current level's line-word limit according to the level's specified difficulty/line-word decrementer.
+   8. Set and start timer for writing Meta cards.
+      1. Interpret and write Meta cards.
+   9.  Set and start timer for writing current level's Kishotenketsu cards and spreads.
+       1.  Interpret Kishotenketsu cards.
+          1. Reverse the Twist card to use its opposite meaning. 
+          2. Narrative must fit in the Kishotenketsu structure.
+          3. Narrative must not have a central/driving conflict. <-- TBD, let's come back to this.
 
 ## Design values
 
@@ -109,6 +113,9 @@ What does your game's design prioritize? You should always refer back to these w
 KTSG lets players experience writing an East Asian-style narrative using Tarot card meanings to answer prompt questions.
 - Ex: I pull The Empress for the Character Meta card. What does this person want to accomplish before the end of time?
 
+KTSG is a creative exercise game. Players get to come up with stories really fast under healthy constraints to get their creativity going. 
+
+Players write stories using Kishotenketsu that don't have a central/driving conflict. <-- yeah I'm gonna have to research this more LOL.
 
 What can the player do? What do players *experience* when they play your game? Ex: Mario lets players experience what it's like to be a jumping plumber who rescues a princess. 
 
@@ -122,6 +129,10 @@ What's the game about? What ideas, concepts, or arguments is your game communica
 ### Point of view
 
 The players feel the narrative in their heads as they interpet Tarot cards to address the requirements of each step in Kishotenketsu.
+
+This game is about writing a series, such as a tv, novel, or comic book series. 
+
+Story: The player is a "Creative Consultant Intern" for a media production firm in a world where stories are the hottest commodity. To keep up with the insane demand for content, the firm takes a chance on the player and gradually gives them more and more assignments such as going from writing a single novel to writing and overseeing an entire tv series. The player gets promoted every couple of levels/assignments. Once they finish all levels/assignments, they become a firm partner and end the game.
 
 
 During gameplay, what do players see, hear, and/or feel? Ex: When playing Mario, what view of the game world do players see? Answer: They see a sideview of the levels Mario jumps through. This can also include POV's such as cultural undersatnding, presentation of information, etc.
