@@ -14,7 +14,11 @@
 - ![](Assets/tumblr_p1qrd5CvHr1uew4jlo1_1280.jpg)
 - ![](Assets/celtic-cross-tarot-spread-10-card-tarot-spread-anatomy-detail-full-infographic.jpg)
 - [11 Popular Tarot Spreads for Beginners and Advanced readers](https://www.alittlesparkofjoy.com/easy-tarot-spreads/)
-- 
+
+### Tarot cards
+- what are the affordances and their signifiers inside tarot cards?
+
+
 ### The Celtic Cross
 - [The Celtic Cross Tarot Spread - Exploring the Classic 10 Card Tarot Spread](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/the-celtic-cross-tarot-spread-exploring-the-classic-10-card-tarot-spread)
 - 10 cards that help you analyze a problem/situation in your life.
@@ -63,3 +67,9 @@ What info do players need to write a story?
 [The Kishotenketsu struture of Digimon Adventure tri: an insight to traditional Japanese storytelling](https://50cyg.tumblr.com/post/170018851160/the-kishotenketsu-struture-of-digimon-adventure)
 
 [THE SKELETAL STRUCTURE OF JAPANESE HORROR FICTION](https://www.tofugu.com/japan/japanese-horror-structure/)
+
+Tarot goal(s)? emotional journey of character. Story goal(s)? Construct narrative ASAP. Game goal(s)? Have fun writing and reading with Tarot.
+
+[TV Tropes: Kishotenketsu](https://tvtropes.org/pmwiki/pmwiki.php/Main/Kishotenketsu)
+
+[The significance of plot without conflict](https://stilleatingoranges.tumblr.com/post/25153960313/the-significance-of-plot-without-conflict)
