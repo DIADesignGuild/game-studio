@@ -1,16 +1,45 @@
 # Changelog
 
 ## v0.2 (Dec. 19th - Dec. XXth, 2021)
-- ~~TODO Include rules on making each card synergize with the card(s) around it.~~
-- ~~TODO Make it obvious that a setup should have a problem, etc. Study Kishotenketsu more closely.~~
-- ~~TODO Add explanation on how this helps you learn Kishotenketsu and synergizing card meanings, as well as challenging you to make a story with these constraints.~~
-- ~~TODO Add variant rules for multiple Kishotenketsu sub spreads.~~
 - Made P02 Proposal.
 - Made P02 GDD.
-- Removed Starting situation card (it's basically the Setup card)
-- ~~TODO Rule(s) where you synergize meanings first OR you synergize as you write the story.~~
 - Added game as P02 in DIA Game Studio.
-- TODO Refine game loop.
+- Note: The design started to come together when I came up with some of these ideas and kept thinking of how they impact the game.
+
+### Basic elements
+- Removed Starting situation card (it's basically the Setup card)
+- Added in v0.1 rules into P02 GDD
+- Added rule for Setting Card (should be drawn before Character Card).
+- Added rule where added values of all cards lets you pick out a theme from a pre-made table
+- Added rule to make X amount of KSTK stories in Y amt of time
+- Added rule for failing forward where if players cant finish x stories in y time, let them start over but keep their old stories/scores for the new round
+- Added rule where if players fail to complete x stories in y time for round z, they have to use a smaller word limit for the next round. 
+- Added rule where finishing a level could result in a promotion to a job title.
+- TODO Make formula for referring to table.
+- TODO Update list of Objects, Actions, Goals, etc.
+
+### Design values
+- Added context to GDD about how P02 is a creative exercise game; main mechanics include constraints like time [EXPERIENCE]
+- TODO Define what kind of stories P02 aims to produce [EXPERIENCE]
+- TODO Change meta theme: Game about writing a series, like a tv series or a book series, or a comic book series [Point of view]
+- TODO elaborate how kishotenketsu doesn't need driving conflict to guide the story; it can take time to explore instead [CONTEXT]
+- TODO Discuss how line-word and time limits along with rules for failure create a meta where building up an extensive vocabulary for writing with brevity is the best strategy (AFAIK). [Skill, strategy, chance, and uncertainty]
+- TODO discuss how challenge in game arises from constraints.
+
+### Game flow
+- TODO Fix gameflow to reflect the flow in the rules.
+
+### Level design
+- TODO Add levels where you make diff media
+  - Ex: Lvl 1 = Write a novel plot, Lvl 2 = Write 3 stories that make up a movie trilogy.
+  - Each lvl has a diff amount for the word and time limits.
+- TODO Add word-limit for each story/act line.
+- TODO Make theme table for Level 0.
+- TODO Add eligibility for promotion to next job title in certain levels (tie milestones to certain levels).
+
+### GDoc
+- TODO Add self-example made using game
+- TODO Add alt. example using existing media like Scott Pilgrim
 
 ## v0.1 (Dec. 10th - Dec. 14th, 2021)
 - Made a shareable document. 
