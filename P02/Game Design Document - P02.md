@@ -214,6 +214,48 @@ Level 2: 5 minute time limit, up to 2-sentences per act.
 Level 3: 30 second time limit, up to 1-sentence per act.
 Level 4: 30 second time limit, up to 5 words per act.
 
+### Theme table (based on the Major Arcana)
+
+The Theme table is meant to help the player decide on a headspace to think and write in. The Major Arcana is used as inspiration since it's typically interpreted as the "Fool's Journey".
+
+This table's focus is to present themes as genres for accessibility purposes. Since this game's target audience includes players who may not have experience in fiction writing, it's prudent to help them approach writing stories through keywords they'd be familiar with. 
+
+|Number|Theme|
+|-|-|
+|0|Comedy/Adventure|
+|1|Fantasy/Sci-Fi|
+|2|Mystery|
+|3|Family/Parenthood|
+|4|Political|
+|5|Faith/Spirituality|
+|6|Romance|
+|7|Racing/Road Trip|
+|8|Nature/Survival|
+|9|Coming of Age|
+|10|Casino/Heist|
+|11|Legal|
+|12|Stoner/Spy|
+|13|War|
+|14|Crime|
+|15|Horror|
+|16|Tragedy/Disaster|
+|17|Healing|
+|18|Surrealism|
+|19|Educational|
+|20|Apocalyptic|
+|21|Epic|
+
+
+Major Arcana: 0-21
+Minor Arcana:
+- Ace (1), 2-10, Page (11), Knight (12), Queen (13), King (14)
+  - 4 groups of 1-14
+
+Min possible val: (6 cards) --> 0 + 1 + 1 + 1 + 1 + 1 = **5**
+Max possible val: (6 cards) --> 21 + 20 + 19 + 18 + 17 + 16 = **111**
+
+Formula --> Theme = (Card1 + Card2 + Card3 + Card4 + Card5 + Card6) % 22
+- "22" is based off the number of cards in the Major arcana, since it's commonly interpreted as the Fool's Journey.
 
 Each level should be explained by a brief overall summary and annotated map or other way to visualize and point out specific details in it.
 
