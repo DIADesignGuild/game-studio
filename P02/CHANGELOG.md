@@ -34,7 +34,7 @@
   - Ex: Lvl 1 = Write a novel plot, Lvl 2 = Write 3 stories that make up a movie trilogy.
   - Each lvl has a diff amount for the word and time limits.
 - TODO Add word-limit for each story/act line.
-- TODO Make theme table for Level 0.
+- Made theme table for Level 0.
 - TODO Add eligibility for promotion to next job title in certain levels (tie milestones to certain levels).
 
 ### GDoc
