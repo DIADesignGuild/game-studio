@@ -15,8 +15,8 @@
 - Added rule for failing forward where if players cant finish x stories in y time, let them start over but keep their old stories/scores for the new round
 - Added rule where if players fail to complete x stories in y time for round z, they have to use a smaller word limit for the next round. 
 - Added rule where finishing a level could result in a promotion to a job title.
-- TODO Make formula for referring to table.
-- TODO Update list of Objects, Actions, Goals, etc.
+- Updated list of Objects, Actions, Goals, etc.
+- Added Scoring section to Rules.
 
 ### Design values
 - Added context to GDD about how P02 is a creative exercise game; main mechanics include constraints like time [EXPERIENCE]
@@ -35,6 +35,7 @@
   - Each lvl has a diff amount for the word and time limits.
 - TODO Add word-limit for each story/act line.
 - Made theme table for Level 0.
+- Made formula for referring to theme table.
 - TODO Add eligibility for promotion to next job title in certain levels (tie milestones to certain levels).
 
 ### GDoc
