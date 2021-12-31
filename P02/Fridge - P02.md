@@ -46,3 +46,8 @@ TODO Digital implementation???
 
 - MVP
   - Each card reading's meaning should build off the previous card's meaning. 
+
+Major Arcana: 0-21
+Minor Arcana:
+- Ace (1), 2-10, Page (11), Knight (12), Queen (13), King (14)
+  - 4 groups of 1-14
