@@ -33,34 +33,51 @@ KTSG is meant to be a single-player experience for newbies to creative writing a
 
 ### Goals
 
-The players must finish writing x amount of stories in y amount of time for z number of levels without going over the word and time limits.
+The players wins when they finish writing x amount of stories in y amount of time for z number of levels without going over the word and time limits.
 
 ### Actions
 
 Players can:
-- Shuffle, Pull, and Read Tarot cards.
-- Create narrative beats. 
-- Amswer prompt questions.
-
-
-- What can the player do to accomplish their goals?
+- Shuffle, Pull, Arrange, and Read Tarot cards.
+- Do a little math to find a theme to write under.
+- Finish assignments.
+- Write within time and line-word limits.
+- Write a line for each act.
 
 ### Objects
 
 - Tarot cards
-  - Major arcana (Meta cards?)
-  - Minor arcana (Kishotenketsu cards?)
-- Narrative beats
-- Prompt questions for each beat
+  - Meta cards
+  - Act Cards
+  - Keywords
+  - Images
+- Mystic Tools
+  - Mystic Formula
+  - Mystic Number
+  - Mystic Table
+  - Themes
+- Kishotenketsu acts
+- Counters
+  - Round counter
+  - Level counter
+  - Line-word limit counter
+  - Time limit counter
+- Assignment briefs
+- Job titles
+  - Promotions
 
 - What does the player interact with?
 
 ### Playspace
 
-- Tarot spread itself
-  - 
-- Narrative space (mentally)
-- Writing space (physically)
+- Kishotenketsu spread
+  - Meta cards
+  - Act cards
+  - Card relationships
+- Headspace
+  - Game world (working at the firm)
+  - Narrative (the story itself)
+- Writing implementation tool
 
 
 - Where is the player?
@@ -77,32 +94,35 @@ Players can:
    2. Drawing Meta cards.
       1. Pull 1 card for the Setting.
       2. Pull 1 card for the Character.
-   3. Draw Kishotenketsu cards.
+   3. Draw Act Cards.
       1. Draw 1 card for Setup.
       2. Draw 1 card for Development.
       3. Draw 1 card for Twist.
       4. Draw 1 card for conclusion.
       5. Arrange into its sub-spread within the super-spread.
       6. Repeat for however many episodes are specified by the current level.
-   4. Arrange Meta and Kishotenketsu cards into the super-spread.
-   5. Take the sum of numerical values of all Meta and Kishotenketsu cards, plugging that value into the formula, and referring to the Theme table, choose the theme corresponding the the sum's value.
+   4. Arrange Meta and Act Cards into the super-spread.
+   5. Take the sum of numerical values of all Meta and Act Cards, plugging that value into the Mystic Formula™, and referring to the Theme table, choose the theme corresponding the the sum's value.
    6. Note current level's number/title, time and line-word limits, possibility for promotion.
    7. Start round of play.
-      1. Player must write 1 line of words for each card.
-      2. Round ends in success if player meets current level's episode goal within time and line-word limits.
-      3. The player checks and sees if finishing the current level results in a promotion to the next job title.
-      4. Round ends in failure if player can't finish writing level's episode goal within the time and line-word limits.
+      1. Cards can be interpeted using their Keywords and Images.
+      2. Player must write 1 line of words for each card.
+      3. Round ends in success if player meets current level's episode goal within time and line-word limits.
+      4. The player checks if finishing the current level results in a promotion to the next job title.
+      5. Round ends in failure if player can't finish writing level's episode goal within the time and line-word limits.
          1. If player fails to meet level goal within limits, then they may restart the level and play again.
             1. Player increments their round counter.
             2. Player keeps the lines a/o stories they wrote from the previous round to count towards the current level's episode goal and continue writing by building off what they already have written.
             3. However players must also lower the current level's line-word limit according to the level's specified difficulty/line-word decrementer.
    8. Set and start timer for writing Meta cards.
       1. Interpret and write Meta cards.
-   9.  Set and start timer for writing current level's Kishotenketsu cards and spreads.
-       1.  Interpret Kishotenketsu cards.
+   9.  Set and start timer for writing current level's Act Cards and spreads.
+       1.  Interpret Act Cards.
           1. Reverse the Twist card to use its opposite meaning. 
           2. Narrative must fit in the Kishotenketsu structure.
           3. Narrative must not have a central/driving conflict. <-- TBD, let's come back to this.
+3. Scoring
+   1. The round counter can act as a "high-score" type variable used for personal achievement. 
 
 ## Design values
 
@@ -209,18 +229,68 @@ Flow chart showing intended use case(s) along with wireframes.
 
 ## Level design
 
-Level 1: 10 minute time limit, up to 4-sentences per act. 
-Level 2: 5 minute time limit, up to 2-sentences per act.
-Level 3: 30 second time limit, up to 1-sentence per act.
-Level 4: 30 second time limit, up to 5 words per act.
+### Level 0: Prep
 
-### Theme table (based on the Major Arcana)
+#### The Mystic Formula
 
-The Theme table is meant to help the player decide on a headspace to think and write in. The Major Arcana is used as inspiration since it's typically interpreted as the "Fool's Journey".
+That's right. Math is magical~ 
+
+The Mystic Formula provides the player with a theme to write under by first eating the sum of the Meta and Act Cards' numerical values. It then spits out a Mystic Number which corresponds with a specific theme in the Mystic Table. The formula is as follows: 
+
+`Mystic Number = (Card 1's # + Card 2's # + Card 3's # + Card 4's # + Card 5's # + Card 6's #) % 22`
+
+Let's break this down.
+
+The funky action inside the parentheses is the sum of the cards' numbers that appear on their designs. The `%` in this case doesn't mean "percentage", but "modulo". Basically modulo gives you the remainder that comes from division between a dividend (left of the `%`) and a divisor (right of the `%`). In the Mystic Formula's case, its dividend is the sum of all cards' numerical values and its divisor is 22.
+
+##### Hold on, what's with this 22?
+
+22 is based off the number of cards in the Major Arcana, since it's commonly interpreted as the Fool's Journey. 
+
+This number is also practical due to the minimum and maximum possible values one gets from finding the sum of 6 cards. To break down the arcanas' numerical ranges:
+- The Major Arcana ranges from 0 to 21. 
+- For the purposes of easy numbers, the Minor Arcana ranges from 1 to 14.
+  - Ace = 1, Page = 11, Knight = 12, Queen = 13, and King = 14.
+
+Thus,
+- Minimum possible value: (6 cards) --> 0 (The Fool) + 1 (The Magician) + 1 (of Swords) + 1 (of Wands) + 1 (of Clubs) + 1 (of Pentacles) = **5**
+- Maximum possible value: (6 cards) --> 16 (The Tower) + 17 (The Star) + 18 (The Moon) + 19 (The Sun) + 20 (Judgement) + 21 (The World) = **111**
+
+With a minima and maxima of 5 and 111, we can reliably use 22 to find a remainder ranging from 0 to 21 (the Major Arcana's range) that corresponds to a Theme in the Mystic Table.
+
+As proof of concept, here's 22 modulo operations that result in every value from 0 to 21, without any operations where the dividend is the same as the remainder:
+- `110 % 22 = 0`
+- `111 % 22 = 1`
+- `68 % 22 = 2`
+- `47 % 22 = 3`
+- `92 % 22 = 4`
+- `49 % 22 = 5`
+- `28 % 22 = 6`
+- `95 % 22 = 7`
+- `74 % 22 = 8`
+- `97 % 22 = 9`
+- `76 % 22 = 10`
+- `99 % 22 = 11`
+- `56 % 22 = 12`
+- `101 % 22 = 13`
+- `36 % 22 = 14`
+- `81 % 22 = 15`
+- `38 % 22 = 16`
+- `61 % 22 = 17`
+- `106 % 22 = 18`
+- `19 % 22 = 19`
+- `86 % 22 = 20`
+- `65 % 22 = 21`
+
+One downside is that without testing to see what the spread of possible values is from 5 to 111, the probability of getting a certain theme more than others could affect the player's experience either positively or negatively. I'll need to test this and see if there's any significant difference for the gameplay experience. 
+
+#### The Mystic Table (based on the Major Arcana)
+
+The Mystic Table is meant to help the player decide on a headspace to think and write in. The Major Arcana is used as inspiration since it's typically interpreted as the "Fool's Journey".
 
 This table's focus is to present themes as genres for accessibility purposes. Since this game's target audience includes players who may not have experience in fiction writing, it's prudent to help them approach writing stories through keywords they'd be familiar with. 
 
-|Number|Theme|
+|Mystic Number|Theme|
 |-|-|
 |0|Comedy/Adventure|
 |1|Fantasy/Sci-Fi|
@@ -235,7 +305,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 |10|Casino/Heist|
 |11|Legal|
 |12|Stoner/Spy|
-|13|War|
+|13|War/Supernatural|
 |14|Crime|
 |15|Horror|
 |16|Tragedy/Disaster|
@@ -245,17 +315,13 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 |20|Apocalyptic|
 |21|Epic|
 
+### Level X
 
-Major Arcana: 0-21
-Minor Arcana:
-- Ace (1), 2-10, Page (11), Knight (12), Queen (13), King (14)
-  - 4 groups of 1-14
+Level 1: 10 minute time limit, up to 4-sentences per act. 
+Level 2: 5 minute time limit, up to 2-sentences per act.
+Level 3: 30 second time limit, up to 1-sentence per act.
+Level 4: 30 second time limit, up to 5 words per act.
 
-Min possible val: (6 cards) --> 0 + 1 + 1 + 1 + 1 + 1 = **5**
-Max possible val: (6 cards) --> 21 + 20 + 19 + 18 + 17 + 16 = **111**
-
-Formula --> Theme = (Card1 + Card2 + Card3 + Card4 + Card5 + Card6) % 22
-- "22" is based off the number of cards in the Major arcana, since it's commonly interpreted as the Fool's Journey.
 
 Each level should be explained by a brief overall summary and annotated map or other way to visualize and point out specific details in it.
 
