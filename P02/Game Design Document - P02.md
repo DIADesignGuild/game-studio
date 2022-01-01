@@ -137,11 +137,22 @@ KTSG is a creative exercise game. Players get to come up with stories really fas
 
 Players write stories using Kishotenketsu that don't have a central/driving conflict. <-- yeah I'm gonna have to research this more LOL.
 
+Players experience the thrill of fast-paced content creation using healthy restraints. Unlike real world work expectations, however, failure isn't the end of things. This game also lets players understand "failure" as an integral aspect of the creative process and isn't necessarily a negative concept. 
+
+I also want players to experience purposeful and meaningful work by:
+- Creating actual narrative outlines they can use outside of the game.
+- Rising through a promotion system that emulates real world career progression. 
+
+What players will take away by the end of the game is an idea of what is feels like to do fulfilling work that they have creative ownership over. It's stressful to be in a cycle where you seek meaningful work but also feel too paralyzed to do anything about it. Sometimes you feel like there's no way out of a hole you've fallen into. By playing this game players can realize there's no such hole and that they can do whatever they set out to, even if it hurts.
+
+
 What can the player do? What do players *experience* when they play your game? Ex: Mario lets players experience what it's like to be a jumping plumber who rescues a princess. 
 
 ### Theme
 
 This game is about learning about Kishotenketsu and Tarot by exploring the space between them.
+
+This game is about how writing stories for different mediums can be easily achievable through writing under constraints that encourage creativity. Out of this setting, play can be achieved through supplying the player with tools to overcome challenges. 
 
 
 What's the game about? What ideas, concepts, or arguments is your game communicating to the players?
@@ -161,6 +172,8 @@ During gameplay, what do players see, hear, and/or feel? Ex: When playing Mario,
 
 The challenge lies in applying Tarot meanings to create story events. This challenge is difficult from the start so the game aims to reduce this difficulty down to an optimal level for play. Players can answer prompt questions for each Kishotenketsu step to help focus their thinking. 
 
+One challenge to the player is writing under constraints. The difficulty in writing quick narratives comes from line-word and time limits that forces the player to think on their feet and make something up as fast as possible. 
+
 
 What stops the player from achieving their goals without any effort? Are there any constraints that add a dimension of fun?
 
@@ -179,11 +192,18 @@ How are decisions made by players? Do they have to use muscle memory or apply a 
 
 Skill: Skill shouldn't impact the gameplay. In fact it shouldn't be a factor at all. This game is about self-expression.
 
-Strategy: N/A.
-
 Chance: Tarot deck is shuffled before drawing cards. 
 
 Uncertainty: Uncertainty thrives in how the Tarot cards may be interpeted depending on the story. Players won't necessarily make the same interpretations (unless they want to).
+
+**Strategy:** The best strategy for this game is to build up an extensive vocabulary for writing with brevity. The line-word and time limits both discourage lengthy and meandering sentences and favor short sentences out of necessity. 
+
+**Skill:** Players need to build up multiple skills to finish writing stories in a short amount of time and words:
+- Memory
+  - Vocabulary
+  - Tarot keywords, meanings, and synergies
+- Getting used to writing under constraints
+- Learning to write narratives without a driving conflict
 
 
 In what way do these factors impact gameplay? The game experience? How are they all balanced with each other and other elements?
@@ -196,6 +216,8 @@ Players include:
 - Newbies to both Tarot and Writing
 
 They most likely play at their desks or on some sort of surface to make the spreads. They'll probably play whenever they feel the urge to write a story/express themselves. This game is intended to be on anything players use to record their story.
+
+Kishotenketsu as a structure doesn't require conflict that the entire narrative focuses on. Its lack of a need for desire, and thus motivation to solve a problem, on a protagonist's part most likely draws from Buddhist values. In this case characters don't need complex motivations as expected in Western storytelling and can simply react to what's occuring in the world around them. This lack of a singular agenda also allows for more exploration around ideas in a work. 
 
 
 Who are the players? Where do they play this game? When will they play the game? What platform will this game be on? 
