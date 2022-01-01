@@ -20,11 +20,11 @@
 
 ### Design values
 - Added context to GDD about how P02 is a creative exercise game; main mechanics include constraints like time [EXPERIENCE]
-- TODO Define what kind of stories P02 aims to produce [EXPERIENCE]
-- TODO Change meta theme: Game about writing a series, like a tv series or a book series, or a comic book series [Point of view]
-- TODO elaborate how kishotenketsu doesn't need driving conflict to guide the story; it can take time to explore instead [CONTEXT]
-- TODO Discuss how line-word and time limits along with rules for failure create a meta where building up an extensive vocabulary for writing with brevity is the best strategy (AFAIK). [Skill, strategy, chance, and uncertainty]
-- TODO discuss how challenge in game arises from constraints.
+- DONE 12/31/21 Defined what kind of stories P02 aims to produce [EXPERIENCE]
+- DONE 12/__/21, 12/31/21 Changed meta theme: Game about writing a series, like a tv series or a book series, or a comic book series [Point of view]
+- DONE 12/31/21 Elaborated how kishotenketsu doesn't need driving conflict to guide the story; it can take time to explore instead [CONTEXT]
+- DONE 01/01/22 Discuss how line-word and time limits along with rules for failure create a meta where building up an extensive vocabulary for writing with brevity is the best strategy (AFAIK). [Skill, strategy, chance, and uncertainty]
+- DONE 01/01/22 Discussed how challenge in game arises from constraints. [CHALLENGE]
 
 ### Game flow
 - TODO Fix gameflow to reflect the flow in the rules.
