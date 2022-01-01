@@ -73,3 +73,7 @@ Tarot goal(s)? emotional journey of character. Story goal(s)? Construct narrativ
 [TV Tropes: Kishotenketsu](https://tvtropes.org/pmwiki/pmwiki.php/Main/Kishotenketsu)
 
 [The significance of plot without conflict](https://stilleatingoranges.tumblr.com/post/25153960313/the-significance-of-plot-without-conflict)
+
+story grammar
+
+Can Story Grammar Speak Japanese?
