@@ -246,12 +246,19 @@ Decide theme/setting --> Pull cards --> Write narrative --> reshuffle cards --> 
 
 - Pull card --> Interpret card --> Write based on card
 
+- Level 0 --> Level X --> End
+  - Level 0: Gather materials
+  - Level X: Check if game ended --> Pull cards --> Arrange spread --> Find theme --> Check current level details --> Read cards + Write stories --> Check if...
+
 
 Flow chart showing intended use case(s) along with wireframes.
 
 ## Level design
 
-### Level 0: Prep
+### Level 0: Job interview
+
+#### Introduction
+- All the contextual info you need to play.
 
 #### The Mystic Formula
 
@@ -337,7 +344,18 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 |20|Apocalyptic|
 |21|Epic|
 
-### Level X
+### Level 1: Interview test
+- Design goal: Onboarding, introduce gameplay
+- Game goal: Write a novel plot
+- Time limit: 10 min
+- Line-word limit: Up to 25 words/line
+- Promotion: Non-employee to Creative Consultant Intern
+
+### Level 2: Welcome to the company
+
+- Design goal: 
+
+
 
 Level 1: 10 minute time limit, up to 4-sentences per act. 
 Level 2: 5 minute time limit, up to 2-sentences per act.
