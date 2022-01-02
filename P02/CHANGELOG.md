@@ -27,7 +27,7 @@
 - DONE 01/01/22 Discussed how challenge in game arises from constraints. [CHALLENGE]
 
 ### Game flow
-- TODO Fix gameflow to reflect the flow in the rules.
+- DONE 01/02/22 Fix gameflow to reflect the flow in the rules.
 
 ### Level design
 - TODO Add levels where you make diff media
