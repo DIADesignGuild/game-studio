@@ -25,6 +25,7 @@
 - DONE 12/31/21 Elaborated how kishotenketsu doesn't need driving conflict to guide the story; it can take time to explore instead [CONTEXT]
 - DONE 01/01/22 Discuss how line-word and time limits along with rules for failure create a meta where building up an extensive vocabulary for writing with brevity is the best strategy (AFAIK). [Skill, strategy, chance, and uncertainty]
 - DONE 01/01/22 Discussed how challenge in game arises from constraints. [CHALLENGE]
+- TODO Add NPC's based on Major arcana to game's meta narrative [Point of view]
 
 ### Game flow
 - DONE 01/02/22 Fix gameflow to reflect the flow in the rules.
