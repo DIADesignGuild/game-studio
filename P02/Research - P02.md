@@ -77,3 +77,24 @@ Tarot goal(s)? emotional journey of character. Story goal(s)? Construct narrativ
 story grammar
 
 Can Story Grammar Speak Japanese?
+- Sample of 20 random stories from a book
+- Lack of desire in characters: Buddhist values
+- Japanese stories don't need "resolutions" per Western storytelling. Stories are allowed to just end. <-- double check on this
+
+[Persona 5 and Jungian Psychology - Masks, Major Arcana, and Meaning - Extra Credits](https://www.youtube.com/watch?v=4a4EdAES0fk)
+- Jungian psychology: focuses on unconscious mind
+- Personas = masks we wear in society
+  - evolutionary mechanism to survive in groups
+  - issue: potential identity crisis
+- Shadow = area of psyche with repressed feelings
+  - not dealing with shadow can overwhelm
+- Anima and Animus = Female and Male traits, respectively
+  - Conflict comes from not embracing your less dominant aspect
+- Collective unconscious = pool of symbols and archetypes in human civilization
+- Archetype = sub-structures of our personalities
+  - Personality templates
+- Tarot in persona = major arcana are each archetypical symbols
+  - major arcana = archetypes for personas to come out of
+
+[Persona 5: The Psychology Behind the Tarot's Archetypes (Part One)](https://www.youtube.com/watch?v=E1y24qmG7Zg)
+- spoilers, so skipping this one
