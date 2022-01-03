@@ -51,3 +51,6 @@ Major Arcana: 0-21
 Minor Arcana:
 - Ace (1), 2-10, Page (11), Knight (12), Queen (13), King (14)
   - 4 groups of 1-14
+
+
+Tracking how difficult an assignment is/how important a client is?
