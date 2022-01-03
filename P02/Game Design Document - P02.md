@@ -163,7 +163,38 @@ The players feel the narrative in their heads as they interpet Tarot cards to ad
 
 This game is about writing a series, such as a tv, novel, or comic book series. 
 
-Story: The player is a "Creative Consultant Intern" for a media production firm in a world where stories are the hottest commodity. To keep up with the insane demand for content, the firm takes a chance on the player and gradually gives them more and more assignments such as going from writing a single novel to writing and overseeing an entire tv series. The player gets promoted every couple of levels/assignments. Once they finish all levels/assignments, they become a firm partner and end the game.
+Story: The player is a "Creative Consultant Intern" for a media production firm specializing in divinating narratives using Tarot cards in a world where stories are the hottest commodity. To keep up with the insane demand for content, the firm takes a chance on the player and gradually gives them more and more assignments such as going from writing a single novel to writing and overseeing an entire tv series. The player gets promoted every couple of levels/assignments. Once they finish all levels/assignments, they become a firm partner and end the game.
+  Promotions happen so frequently because people keep burning out and leaving LMAO.
+
+Characters: 
+- The Creative Director
+  - Your friendly interviewer and now direct boss.
+  - Chill and always knows what to do if something goes wrong.
+  - Dreads having meetings with the Firm Head.
+  - Takes over as Firm Head when the old one escapes the country.
+- The Senior Content Consultant
+  - An established employee in the Firm's creative division.
+  - Means well but definitely sees the interns as a bunch of inept monkeys.
+- The Other Creative Consultant Intern
+  - A nervous klutz who wants to do her best.
+  - Has a strong knack for seeing the bigger picture of an overarching narrative.
+  - Everyone thinks she'll become a great creative director someday.
+- The Firm Head
+  - An obnoxious creep who exploits the creative workers at the Firm.
+  - Loves content but never had the talent for making it. Luckily for him he's good at the business end of things (and inherited the Firm from his dad).
+  - Everyone knows he creeps on the employees.
+  - Flees the country in the last level, leaving the player as the perfect fit to lead the firm.
+- The HR Rep
+  - A by-the-book walking encyclopedia who goes around citing the employee handbook from memory whenever she sees something wrong.
+  - Exposes the Firm Head's dodgy tax history to the government when he tries to creep on her.
+    - Oh, those poor sea otters... He won't ever hurt them ever again.
+- The Secretary
+  - The Firm Head's personal secretary.
+  - Does her job. That's it. Don't bother her for anything else.
+  - Doesn't matter that the old Head left the country. She's here to work for whoever's coughing up the money.
+- The Player/Creative Consultant Intern
+  - A bright-eyed young intern who dreams of writing up content all day. 
+  - They also kind of need this job to pay the rent, so they'll put up with anything.
 
 
 During gameplay, what do players see, hear, and/or feel? Ex: When playing Mario, what view of the game world do players see? Answer: They see a sideview of the levels Mario jumps through. This can also include POV's such as cultural undersatnding, presentation of information, etc.
@@ -249,6 +280,7 @@ Decide theme/setting --> Pull cards --> Write narrative --> reshuffle cards --> 
 - Level 0 --> Level X --> End
   - Level 0: Gather materials
   - Level X: Check if game ended --> Pull cards --> Arrange spread --> Find theme --> Check current level details --> Read cards + Write stories --> Check if...
+  - End: Read ending, feel like a champ
 
 
 Flow chart showing intended use case(s) along with wireframes.
@@ -259,6 +291,38 @@ Flow chart showing intended use case(s) along with wireframes.
 
 #### Introduction
 - All the contextual info you need to play.
+
+#### Alt. to physical decks and online services
+If a player lacks access to an interactive deck, physical or digital, they can pick numbers ahead of time with a random number generator to determine what cards to reference during play. This method assumes the player isn't familiar with Tarot card numbers. 
+
+Here's the process for choosing a random card from the deck. Players repeat these steps for each card they need to pull for the current level.
+
+First choose a random number from 1 to 5 to select a category of cards.
+
+|Number|Arcana|Suite|
+|-|-|-|
+|1|Major|N/A|
+|2|Minor|Wands|
+|3|Minor|Swords|
+|4|Minor|Cups|
+|5|Minor|Pentacles|
+
+Next, choose a random number for the exact card to refer to depending on the Arcana and Suite chosen with the previous number.
+
+|Arcana|Range|
+|-|-|
+|Major|0-21|
+|Minor|1-14|
+
+NOTE: For the Aces and Court cards in this game, players assume certain values.
+
+|Card type|Number|
+|-|-|
+|Ace|1|
+|Page|11|
+|Knight|12|
+|Queen|13|
+|King|14|
 
 #### The Mystic Formula
 
@@ -345,22 +409,69 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 |21|Epic|
 
 ### Level 1: Interview test
-- Design goal: Onboarding, introduce gameplay
-- Game goal: Write a novel plot
-- Time limit: 10 min
-- Line-word limit: Up to 25 words/line
+- Design goal: Introduce time limit, Introduce line-word limit
+- Game goal: Ghost write a novel plot for a minor internet celebrity. 
+- Brief: They're paying good money for this! But obviously not enough for the big shots to care. Write a simple 4 line story for the ~~sweatshop~~ content generation team. While we're not too concerned about the quality since they're trying to scrimp on us, we do care that you finish on time. Get your work in by the end of the day and you're hired! P.S. We'll compensate you with a month-old donut from the breakroom and some Monopoly money we have lying around.
+- Liason: The Creative Director
+- Time limit: 10 min real time or 1 in-game day
+- Line-word limit: Up to 25 words/line, 100 words total
 - Promotion: Non-employee to Creative Consultant Intern
+  - Perk: You won't starve in the streets next week!
 
 ### Level 2: Welcome to the company
+- Design goal: Introduce Kishotenketsu
+- Game goal: Write a film trilogy for a low-budget, established indie studio.
+- Brief: Great job, newbie. Welcome to the Firm. Your first official (paid with real money) assignment is to write a film trilogy. The client's (b12) a well-known indie studio that's been churning out B-level movies since before you were born. But need a new trilogy aka a new evergreen property that'll put their names on the map again. So basically, we actually need to kinda try this time. Write up 3 4-line stories using this hot new story structure called Kishotenketsu the Senior Content Consultant teaches you by the end of the day.
+- Liason: The Senior Content Consultant
+- Time limit: 7 min real time or 1 in-game afternoon
+- Line-word limit: Up to 20 words/line, 240 words total
+- Promotion: None
+  - Perk: Get back to work.
 
-- Design goal: 
+### Level 3: 2 Brain cells colliding
+- Design goal: Introduce Act cards, Introduce Kishotenketsu spread
+- Game goal: Write a limited-run 5-issue comic book series for a well-known classic comics publisher.
+- Brief: Excellent work with that film trilogy, the studio loved it. Now we need you to write up 5-issue, at 4-line each, limited run comic book series for a well-known comics publisher. They're a powerhouse in their industry and definitely someone we want to please. Or else these rabid nerds will have our heads (they've tried before). This time we'll have you learn how to divinate narratives using Tarot cards. It's what we're known for after all. The Other Creative Consultant Intern will help you out with that. Best of luck! If you succeed we'll bump you up to being an official Content Consultant. Not because our workforce keeps burning out and leaving, haha who told you that? Seriously, who.
+- Liason: The Other Creative Consultant Intern
+- Time limit: 5 min real time or 1 in-game work session
+- Line-word limit: Up to 15 words/line, 300 words total
+- Promotion: Content Consultant Intern to Content Consultant
+  - Perks: 
+    - Junior standing. During the next level only. After time's up you can take out up to any 3 words you wrote for the entire assignment. 
+    - You get $3 right from the boss's wallet and an all expenses paid additional trip to the bathroom (you need to pay to flush, though).
 
+### Level 4: Where did everyone go?
+- Design goal: Introduce Meta cards, Introduce full Kishotenketsu spread
+- Game goal: Write a 8-track concept album for a popular rock band.
+- Brief: The comic book series is a hit! You're doing good. By the way there's a popular rock band out there who's trying to make a concept album that'll shake the charts. They'd do it themselves but management's concerned they're too busy having fun to actually get any work done. Corporate-made bands, am I right? Anyway we're short on staff this time- Oh don't worry, this usually happens at this time of the year. The HR Rep will give you the run-down on incorporating Meta cards into your spread. She's not necessarily an expert on content writing but she knows a thing or two. Get us 8 tracks worth of content at 4 lines for each track by today. Good luck! Oh also, don't do anything stupid; she's a stickler for the rules *groan*.
+- Liason: The HR Rep
+- Time limit: 3.5 min real time or 1/2 in-game work session
+- Line-word limit: Up to 13 words/line, 416 words total
+- Promotion: None
+  - Perk: Opportunity to use previous level's perk.
 
+### Level 5: 
+- Design goal: Combine everything the players' learned
+- Game goal: Write a 10-episode radio serial for a trending themed podcast.
+- Brief: Wow that album blasted its way to the top of the charts! The record company's saying the band's ingenuity did it, but we all know who the real champs are (us, of course). This assignment's a little weird, though. Don't ask me why, but for some reason the Firm Head's Secretary wants to supervise you. She's capable and knows her way around content thanks to the Head's love for it. Make 10 episodes worth of content at 4 lines per episode... And who knows, maybe she'll bump you up in the ranks if you succeed.
+- Liason: The Secretary
+- Time limit: 2 min real time or 1/2 in-game work session
+- Line-word limit: Up to 8 words/line, 320 words total
+- Promotion: Content Consultant to Senior Content Consultant
+  - Perks: 
+    - Senior standing. During the next level only. After time's up you can switch out up to any 3 words you wrote for the entire assignment. 
+    - This time you get a $5 voucher for coffee from the machine (a coffee costs $7) and whatever lint's on it.
 
-Level 1: 10 minute time limit, up to 4-sentences per act. 
-Level 2: 5 minute time limit, up to 2-sentences per act.
-Level 3: 30 second time limit, up to 1-sentence per act.
-Level 4: 30 second time limit, up to 5 words per act.
+### Level 6: End of the line
+- Design goal: Test everything the players' learned
+- Game goal: Write a 12-episode anime TV series for a major broadcasting corporation.
+- Brief: The Head's been keeping an eye on you and needs your help. The Firm's in danger of shutting down thanks to its funds mysteriously disappearing! Luckily the Firm Head leveraged his contact at a major broadcasting corporation to land a lucrative contract for writing 12 episodes of a new anime show. 4-lines each episode. But you have to finish writing it this second yesterday! Get this rush order out the door so you can save the company!
+- Liason: The Firm Head
+- Time limit: 1.5 min real time or literally right this instant in-game hurry hurry hurry
+- Line-word limit: Up to 5 words/line, 240 words total
+- Promotion: Senior Content Consultant to Creative Director
+  - Perk: Opportunity to use previous level's perk.
+  - You get to witness the Creative Director turn into the Firm Head and grant everyone equitable pay. No more eating stray yarn from strangers' coats at parties!
 
 
 Each level should be explained by a brief overall summary and annotated map or other way to visualize and point out specific details in it.
