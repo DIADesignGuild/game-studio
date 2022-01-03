@@ -31,13 +31,15 @@
 - DONE 01/02/22 Fix gameflow to reflect the flow in the rules.
 
 ### Level design
-- TODO Add levels where you make diff media
+- DONE 01/03/2022 Added levels where you make diff media
   - Ex: Lvl 1 = Write a novel plot, Lvl 2 = Write 3 stories that make up a movie trilogy.
   - Each lvl has a diff amount for the word and time limits.
-- TODO Add word-limit for each story/act line.
+- DONE 01/03/2022 Added word-limit for each story/act line.
 - Made theme table for Level 0.
 - Made formula for referring to theme table.
-- TODO Add eligibility for promotion to next job title in certain levels (tie milestones to certain levels).
+- DONE 01/03/2022 Add eligibility for promotion to next job title in certain levels (tie milestones to certain levels).
+- DONE 01/03/2022 Add rule to level 0 where players can choose a number from 1 to 5 for the arcanas and then a number from 0 to 21 or 1 to 14 depending on the arcana. This way they can play without buying actual cards.
+- DONE 01/03/2022 Added benefits for promotions.
 
 ### GDoc
 - TODO Add self-example made using game
