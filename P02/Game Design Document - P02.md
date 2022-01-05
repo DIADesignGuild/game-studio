@@ -98,7 +98,7 @@ Players can:
       1. Draw 1 card for Setup.
       2. Draw 1 card for Development.
       3. Draw 1 card for Twist.
-      4. Draw 1 card for conclusion.
+      4. Draw 1 card for Conclusion.
       5. Arrange into its sub-spread within the super-spread.
       6. Repeat for however many episodes are specified by the current level.
    4. Arrange Meta and Act Cards into the super-spread.
@@ -117,7 +117,7 @@ Players can:
    8. Set and start timer for writing Meta cards.
       1. Interpret and write Meta cards.
    9.  Set and start timer for writing current level's Act Cards and spreads.
-       1.  Interpret Act Cards.
+       1.  Interpret and write Act Cards.
           1. Reverse the Twist card to use its opposite meaning. 
           2. Narrative must fit in the Kishotenketsu structure.
           3. Narrative must not have a central/driving conflict. <-- TBD, let's come back to this.
@@ -293,7 +293,7 @@ Flow chart showing intended use case(s) along with wireframes.
 - All the contextual info you need to play.
 
 #### Alt. to physical decks and online services
-If a player lacks access to an interactive deck, physical or digital, they can pick numbers ahead of time with a random number generator to determine what cards to reference during play. This method assumes the player isn't familiar with Tarot card numbers. 
+If a player lacks access to an interactive deck, physical or digital, they can pick numbers ahead of time with a random number generator to determine what cards to reference during play. This method assumes the player isn't familiar with Tarot card numbers. Players can refer to any free online printable tarot deck pdf's.
 
 Here's the process for choosing a random card from the deck. Players repeat these steps for each card they need to pull for the current level.
 
@@ -453,7 +453,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 ### Level 5: 
 - Design goal: Combine everything the players' learned
 - Game goal: Write a 10-episode radio serial for a trending themed podcast.
-- Brief: Wow that album blasted its way to the top of the charts! The record company's saying the band's ingenuity did it, but we all know who the real champs are (us, of course). This assignment's a little weird, though. Don't ask me why, but for some reason the Firm Head's Secretary wants to supervise you. She's capable and knows her way around content thanks to the Head's love for it. Make 10 episodes worth of content at 4 lines per episode... And who knows, maybe she'll bump you up in the ranks if you succeed.
+- Brief: Wow that album blasted its way to the top of the charts! The record company's saying the band's ingenuity did it, but we all know who the real champs are (us, of course). This assignment's a little weird, though. Don't ask me why, but for some reason the Firm Head's Secretary wants to supervise you. She's capable and knows her way around content thanks to the Head's love for it. Make 10 episodes worth of content at 4 lines per episode... And who knows, maybe she'll bump you up in the ranks if you succeed. Why the sudden promotion? N-no reason! It's not like we're slipping into bankruptcy or anything like that- HAHA who told you that nonsense?
 - Liason: The Secretary
 - Time limit: 2 min real time or 1/2 in-game work session
 - Line-word limit: Up to 8 words/line, 320 words total
