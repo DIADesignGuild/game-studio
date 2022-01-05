@@ -1,4 +1,4 @@
-# Changelog
+# Changelog - P02
 
 ## v0.2 (Dec. 19th - Dec. XXth, 2021)
 - Made P02 Proposal.
@@ -41,9 +41,8 @@
 - DONE 01/03/2022 Add rule to level 0 where players can choose a number from 1 to 5 for the arcanas and then a number from 0 to 21 or 1 to 14 depending on the arcana. This way they can play without buying actual cards.
 - DONE 01/03/2022 Added benefits for promotions.
 
-### GDoc
-- TODO Add self-example made using game
-- TODO Add alt. example using existing media like Scott Pilgrim
+### Game file itself
+- DONE 01/05/21 KSTG v0.2 - MVP (Markdown, to deter visual design detours)
 
 ## v0.1 (Dec. 10th - Dec. 14th, 2021)
 - Made a shareable document. 
