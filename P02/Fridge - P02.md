@@ -54,3 +54,6 @@ Minor Arcana:
 
 
 Tracking how difficult an assignment is/how important a client is?
+
+- TODO Add self-example made using game
+- TODO Add alt. example using existing media like Scott Pilgrim
