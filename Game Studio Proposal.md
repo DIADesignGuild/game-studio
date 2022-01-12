@@ -111,7 +111,7 @@ Per the name, [studio culture](https://soa.princeton.edu/content/studio-culture#
 
 **For the game.** Everything we do’s for the good of the game. Always. Since we’re a UX-focused guild, factors such as players/users, interaction, and experience call to us as higher powers. 
 
-**Experimenting.** We have fun making games, which means we gladly experiment. Games as tools, audio-only games for the blind, and any other unusual concepts are welcome here. After all, adventure is out there. 
+**Experimenting.** We have fun making games, which means we gladly experiment. We welcome all types of games: games as tools, audio-only games, TTRPG, etc.
 
 **Constraints.** Constraints are our bread and butter. We approach game making with a DIY mentality, a focus on rapid prototyping and iteration, and limited-scopes. 
 
