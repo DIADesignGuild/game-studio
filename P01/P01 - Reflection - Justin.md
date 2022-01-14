@@ -16,6 +16,8 @@ Amber was left to implement the new features and changes. Justin was blocked and
 
 Throughout the entire project, Justin and Amber met at an approximate cadence of once a week to touch base and keep each other motivated. It's important to note that with the studio at such an early stage, Amber had no expectations and was most likely confused a/o overwhelmed with the project. It would be wise to keep track of what value meetings bring for all involved so that maximum fun occurs for future projects.
 
+We both ended up not being very invested in the project. While it's important to finish games, it's also important to know when to not waste time on finishing them. I believe part of why we gave up was because we didn't have a strong creative direction to guide development with. This was an off-hand project with a limited scope that we tried and lost interest in. Future projects should use frameworks such as GDP's design values and the MDA framework to help keep the team focused on their design intentions.
+
 ## Reject high-polygon graphics, return to pixel
 PICO-8, PV8, and TIC-80 are categorized as "fantasy consoles", or miniature engines designed to emulate the restrictions of older technology and development practices.
 
