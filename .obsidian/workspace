@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "1288281b5a51125f",
+    "id": "1950cba0b876651c",
     "type": "split",
     "children": [
       {
-        "id": "69c95308e9ad9e1b",
+        "id": "00657abcbfa87b16",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -82,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69c95308e9ad9e1b",
+  "active": "00657abcbfa87b16",
   "lastOpenFiles": [
     "P02/Paper Prototyping - P02.md",
     "P02/Game Design Document - P02.md",

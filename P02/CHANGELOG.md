@@ -1,5 +1,16 @@
 # Changelog - P02
 
+## v0.3 ()
+- TODO Consider adding a rule where the conclusion card in a previous Kishotenketsu sequence acts as the starting situation card in the next one.
+- TODO add rule where reversed cards have negative numbers.
+- TODO Create spread *after* getting the Theme.
+- TODO Variant rules for multi-spread stories?
+- TODO clarify "/" in Theme table (should mean either or) OR only put 1 theme.
+- TODO change "line-word" to something easier. Like "word limit".
+- TODO add in rules for failure.
+- TODO What more can I do with card numbers?
+  - Have repetitive numbers create special effects?
+
 ## v0.2 (Dec. 19th - Dec. XXth, 2021)
 - Made P02 Proposal.
 - Made P02 GDD.
