@@ -1,5 +1,6 @@
-# P02 Tests
+# P02 v0.2 Tests
 5 play tests should do the trick *smth smth Jakob Nielsen*
+
 
 ## Test 1
 
@@ -192,3 +193,70 @@ Line-word limit: 7 words/line
 ### Notes
 - Not bad, definitely a challenge if you haven't played this before.
 - Felt rushed; counting words while writing only made things harder.
+
+
+
+# P02 v0.3 Tests
+
+## Test 1
+
+### Cards
+Setting: 4 of Pentacles (R) = Loss
+Character: 7 of Swords (R) = Confession
+Setup: Page of Swords = Focused
+Development: King of Cups = Wise
+Twist: 11 - Justice (R) = Biased
+Reconciliation: 7 - The Chariot = Drive~~/Motivation/Kinetic~~
+
+### Values
+Sum = 54
+Mystic Number = 10
+Theme = Heist
+
+### Questions
+Setting: What sensations is your character experiencing?
+Character: What are your character's thoughts centered around?
+Setup: What are your character's thoughts centered around?
+Development: What emotions is your character feeling?
+Twist: What moral or fundamental truth does your character learn about?
+Reconciliation: What moral or fundamental truth does your character learn about?
+
+### Combos
+Pair (7 of Swords + 7 - The Chariot) = -1 min
+
+### Limits a
+Time limit: 5 min
+Word limit: 8 words/line
+
+### Limits b
+Time limit: 5 min
+Word limit: 6 words/line
+
+### Story
+- You could lose everything.
+- Gambler gives confession for casino heist.
+- Young gambler focused on casino to rob.
+- Found wise mentor to teach him gambling way.
+- Finds out casino is biased towards certain clients.
+- He and mentor disguise themselves to win.
+
+### Notes
+- Had to move the Twist-reverse rule towards the top to avoid conflict with list rule.
+- Need to add a time limit to making list.
+  - 6 min?
+- Should specify that the list should be a separate document to stash keywords.
+  - Google Sheets?
+- What do I do about repeating Mystic Questions?
+- Mystic Combo: Specify that only one of them has to be reversed to count as a Y
+  - Just remove the Combos?
+- Does this really help people read spreads, tho?
+- Do these questions make sense?
+- Is this too many rules/mechanics?
+- Make sequel story for Test 2
+- 8 words/line might be too little.
+  - Should raise it.
+- Add rule for loss where you can change any lines if you need to.
+  - This story didn't make sense with how I wrote it.
+- Clarify rules for failure; what else involves failing?
+  - Ex: Not including keywords?
+  - What do I do if I realize I didn't include a keyword? Does it count as a failure?

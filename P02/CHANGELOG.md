@@ -1,15 +1,42 @@
 # Changelog - P02
 
 ## v0.3 ()
-- TODO Consider adding a rule where the conclusion card in a previous Kishotenketsu sequence acts as the starting situation card in the next one.
-- TODO add rule where reversed cards have negative numbers.
-- TODO Create spread *after* getting the Theme.
-- TODO Variant rules for multi-spread stories?
-- TODO clarify "/" in Theme table (should mean either or) OR only put 1 theme.
-- TODO change "line-word" to something easier. Like "word limit".
-- TODO add in rules for failure.
-- TODO What more can I do with card numbers?
-  - Have repetitive numbers create special effects?
+- Added variant rules for multi-spread stories
+  - Added a rule where the conclusion card in a previous Kishotenketsu sequence acts as the setup card in the next one.
+- Added rule where reversed cards have negative numbers.
+- Added rule for creating spread *after* getting the Theme to see the big picture.
+- Changed themes list to include only 1 option.
+- Changed "line-word" to something easier. Like "word limit".
+- Refined rules for failure.
+- Changed time limit.
+- Re-oriented in MDA framework
+- Added rule: With each new card create a keyword for it. Then in its line in the story use that keyword at least once.
+  - Added rule for creating keywords *before* writing.
+  - Added rule for creating a list of keywords.
+  - Added a rule for creating a new keyword for cards that already have them.
+- DONE What more can I do with card numbers/suites/motifs/etc.?
+- DONE How can I tie in Tarot card meanings to my new understanding of KSTK?
+- Added table of contents.
+- TODO Test 2
+- TODO Add an explanation of KSTK that replaces Conclusion w/ Reconciliation.
+- TODO Add an explanation of KTSK that utilizes updated Research.
+- DONE Research
+  - DONE ~~https://cookiemoon.itch.io/game-designers-tarot~~
+  - DONE ~~https://apnews.com/press-release/kisspr/business-lifestyle-marketing-and-advertising-corporate-news-physical-fitness-176d23b5934367d4f5e52905ac984de6~~
+  - DONE ~~https://www.reddit.com/r/DMAcademy/comments/p5pl3l/improv_descriptions_in_4_sentences/~~
+  - DONE https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/tarot-and-numerology-what-do-numbers-in-tarot-mean-for-the-minor-arcana-infographic
+  - DONE https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-calculate-your-tarot-birth-card-plus-short-birth-card-meanings-infographic
+  - DONE https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/the-tarot-and-the-tree-of-life-correspondences
+  - DONE [An Introduction to Lenormand Cards: Plus Lenormand Card Meaning List](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/an-introduction-to-lenormand-cards-plus-lenormand-card-meaning-list)
+  - DONE [Tarot By Numbers: A Fast And Simple Way To Learn The Cards With Numerology](https://www.biddytarot.com/tarot-by-numbers/)
+  - DONE [The Differences Between Tarot Cards and Lenormand Cards](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/the-differences-between-tarot-cards-and-lenormand-cards)
+  - DONE [How to Read Lenormand Card Combinations](https://labyrinthos.co/blogs/learn-tarot-with-labyrinthos-academy/how-to-read-lenormand-card-combinations)
+  - DONE https://www.throughthephases.com/tarot-numerology/
+  - DONE https://tvtropes.org/pmwiki/pmwiki.php/Main/Kishotenketsu 
+  - DONE https://www.tofugu.com/japan/japanese-horror-structure/ 
+  - DONE [How to Write a News Article: Headlines](https://spcollege.libguides.com/c.php?g=254319&p=1695321)
+  - DONE [How to master the art of headline writing](https://www.mediamatters-pr.co.uk/blog/master-art-headline-writing/)
+  - DONE [The Art Of Writing News](https://www.dailywritingtips.com/the-art-of-writing-news/)
 
 ## v0.2 (Dec. 19th - Dec. XXth, 2021)
 - Made P02 Proposal.

@@ -1,11 +1,29 @@
 # P02 Game Design Document
+v0.2 - Justin Kim - 01/14/21-
+- 
 
 v0.1 - Justin Kim - 12/19/21-12/23/21
 - Finished spitballing my ideas and thoughts.
 
+## Table of contents
+1. [Working title](#working-title)
+2. [Gameplay description](#gameplay-description)
+3. [Goal(s)](#goals)
+4. [6 Basic elements](#6-basic-elements)
+5. [Design values](#design-values)
+6. [Interface and controls](#interface-and-controls)
+7. [Game flow](#game-flow)
+8. [Level design](#level-design)
+9. [Art direction](#art-direction)
+10. [Technical overview](#technical-overview)
+11. [MDA Framework (experimental)](#mda-framework-experimental)
+
 ## Working title
 
 [Kishotenketsu Tarot Spread Game](https://docs.google.com/document/d/1bgnpU05j40BGx25Rpb4umxYWp0rPAaY6-49w2q-8cTs/edit?usp=sharing) (KTSG)
+
+Alt's
+- Tarot+writing game
 
 ## Gameplay description
 
@@ -41,7 +59,7 @@ Players can:
 - Shuffle, Pull, Arrange, and Read Tarot cards.
 - Do a little math to find a theme to write under.
 - Finish assignments.
-- Write within time and line-word limits.
+- Write within time and word limits.
 - Write a line for each act.
 
 ### Objects
@@ -60,7 +78,7 @@ Players can:
 - Counters
   - Round counter
   - Level counter
-  - Line-word limit counter
+  - Word limit counter
   - Time limit counter
 - Assignment briefs
 - Job titles
@@ -83,9 +101,37 @@ Players can:
 - Where is the player?
 
 ### Rules
+
+#### Basic rules
+1. Pull 1 card each for the:
+   1. Setting (Meta)
+   2. Character (Meta)
+   3. Setup (Act)
+   4. Development (Act)
+   5. Twist (Act)
+   6. Reconciliation (Act)
+2.  Make a list with 1 keyword for each card based on its image, text, and/or your intuition.
+   1. Reverse the Twist card to use its opposite meaning. 
+   2. If you've already played this game before and pull a card that already has a keyword, create a new one for it.
+3. Take the sum of numerical values of all Meta and Act Cards, plug that value into the Mystic Formula, and referring to the Theme table, choose the theme corresponding the the sum's value.
+4. Create spread.
+   1. Look at the Act cards and note their suites and arcanum. Using these details, refer to the Mystic Questions table and note which questions you must answer while writing. 
+5.  Set the timer and write 1 line of words, up to 8 words per line, for each card within 6 minutes.
+    1.  Use the theme from the table.
+    2.  Each line's keyword must be included at least once.
+    3.  Look at your Act cards. Change the time and word limits based on the combos you find by referring to the Mystic Combos table.
+    4.  For each Act card incorporate the answer to their corresponding question from the Mystic Questions table into the story line.
+6.  If you write within the time and word limits, you've succeeded.
+    1.  If not, restart the timer, keep any complete lines, and discard any unfinished lines.
+    2.  Lower the word limit by 2 words and begin writing.
+    3.  If the word limit goes below 0, delete your story and start over from scratch.
+    4.  Once you succeed, restore the word limit to its default value.
+7.  If you've succeeded and want to write a sequel story, draw more cards for the Development, Twist, and Conclusion to make a new spread but use your previous Conclusion card as the new Setup card.
+
+#### Extended rules
 1. Level 0.
    1. Gather materials
-      1. Something to record narrative, current line-word limit, current level, number of rounds played, job title.
+      1. Something to record narrative, current word limit, current level, number of rounds played, job title.
       2. Digital/physical Tarot deck.
          1. Any Tarot frameworks are welcome, but this game assumes the RWS framework by default.
       3. Timer.
@@ -101,19 +147,20 @@ Players can:
       4. Draw 1 card for Conclusion.
       5. Arrange into its sub-spread within the super-spread.
       6. Repeat for however many episodes are specified by the current level.
-   4. Arrange Meta and Act Cards into the super-spread.
-   5. Take the sum of numerical values of all Meta and Act Cards, plugging that value into the Mystic Formula™, and referring to the Theme table, choose the theme corresponding the the sum's value.
-   6. Note current level's number/title, time and line-word limits, possibility for promotion.
+   4. Take the sum of numerical values of all Meta and Act Cards, plugging that value into the Mystic Formula™, and referring to the Theme table, choose the theme corresponding the the sum's value.
+      1. If a card is reverse, make its number negative.
+   5. Note current level's number/title, time and word limits, possibility for promotion.
+   6. Arrange Meta and Act Cards into the super-spread.
    7. Start round of play.
       1. Cards can be interpeted using their Keywords and Images.
       2. Player must write 1 line of words for each card.
-      3. Round ends in success if player meets current level's episode goal within time and line-word limits.
+      3. Round ends in success if player meets current level's episode goal within time and word limits.
       4. The player checks if finishing the current level results in a promotion to the next job title.
-      5. Round ends in failure if player can't finish writing level's episode goal within the time and line-word limits.
+      5. Round ends in failure if player can't finish writing level's episode goal within the time and word limits.
          1. If player fails to meet level goal within limits, then they may restart the level and play again.
             1. Player increments their round counter.
             2. Player keeps the lines a/o stories they wrote from the previous round to count towards the current level's episode goal and continue writing by building off what they already have written.
-            3. However players must also lower the current level's line-word limit according to the level's specified difficulty/line-word decrementer.
+            3. However players must also lower the current level's word limit according to the level's specified difficulty/word decrementer.
    8. Set and start timer for writing Meta cards.
       1. Interpret and write Meta cards.
    9.  Set and start timer for writing current level's Act Cards and spreads.
@@ -196,6 +243,8 @@ Characters:
   - A bright-eyed young intern who dreams of writing up content all day. 
   - They also kind of need this job to pay the rent, so they'll put up with anything.
 
+Alt story: You divinate what happens next and write news headlines ASAP.
+
 
 During gameplay, what do players see, hear, and/or feel? Ex: When playing Mario, what view of the game world do players see? Answer: They see a sideview of the levels Mario jumps through. This can also include POV's such as cultural undersatnding, presentation of information, etc.
 
@@ -203,7 +252,7 @@ During gameplay, what do players see, hear, and/or feel? Ex: When playing Mario,
 
 The challenge lies in applying Tarot meanings to create story events. This challenge is difficult from the start so the game aims to reduce this difficulty down to an optimal level for play. Players can answer prompt questions for each Kishotenketsu step to help focus their thinking. 
 
-One challenge to the player is writing under constraints. The difficulty in writing quick narratives comes from line-word and time limits that forces the player to think on their feet and make something up as fast as possible. 
+One challenge to the player is writing under constraints. The difficulty in writing quick narratives comes from word and time limits that forces the player to think on their feet and make something up as fast as possible. 
 
 
 What stops the player from achieving their goals without any effort? Are there any constraints that add a dimension of fun?
@@ -227,7 +276,7 @@ Chance: Tarot deck is shuffled before drawing cards.
 
 Uncertainty: Uncertainty thrives in how the Tarot cards may be interpeted depending on the story. Players won't necessarily make the same interpretations (unless they want to).
 
-**Strategy:** The best strategy for this game is to build up an extensive vocabulary for writing with brevity. The line-word and time limits both discourage lengthy and meandering sentences and favor short sentences out of necessity. 
+**Strategy:** The best strategy for this game is to build up an extensive vocabulary for writing with brevity. The word and time limits both discourage lengthy and meandering sentences and favor short sentences out of necessity. 
 
 **Skill:** Players need to build up multiple skills to finish writing stories in a short amount of time and words:
 - Memory
@@ -324,6 +373,32 @@ NOTE: For the Aces and Court cards in this game, players assume certain values.
 |Queen|13|
 |King|14|
 
+#### The Mystic Questions
+|Arcanum|Suite|Element|Question|
+|-|-|-|-|
+|Minor|Pentacles|Earth|What sensations is your character experiencing?|
+||Swords|Air|What are your character's thoughts centered around?|
+||Cups|Water|What emotions is your character feeling?|
+||Wands|Fire|What are your character's gut feelings?|
+|Major|N/A|Path|What moral or fundamental truth does your character learn about?|
+
+#### The Mystic Combos
+
+|Combo|#/Suite|Reversed?|Effect|
+|-----|-------|---------|------|
+|4 of a kind|#|N|+3 min|
+|||Y|-3 min|
+||Suite|N|+4 words|
+|||Y|-4 words|
+|3 of a kind|#|N|+2 min|
+|||Y|-2 min|
+||Suite|N|+3 words|
+|||Y|-3 words|
+|Pair|#|N|+1 min|
+|||Y|-1 min|
+||Suite|N|+2 words|
+|||Y|-2 words|
+
 #### The Mystic Formula
 
 That's right. Math is magical~ 
@@ -385,36 +460,36 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 
 |Mystic Number|Theme|
 |-|-|
-|0|Comedy/Adventure|
-|1|Fantasy/Sci-Fi|
-|2|Mystery|
-|3|Family/Parenthood|
+|0|Comedy|
+|1|Fantasy|
+|2|Sci-Fi|
+|3|Family|
 |4|Political|
-|5|Faith/Spirituality|
+|5|Spirituality|
 |6|Romance|
-|7|Racing/Road Trip|
-|8|Nature/Survival|
+|7|Racing|
+|8|Nature|
 |9|Coming of Age|
-|10|Casino/Heist|
+|10|Heist|
 |11|Legal|
-|12|Stoner/Spy|
-|13|War/Supernatural|
+|12|Spy|
+|13|Supernatural|
 |14|Crime|
 |15|Horror|
-|16|Tragedy/Disaster|
+|16|Tragedy|
 |17|Healing|
 |18|Surrealism|
-|19|Educational|
+|19|Road Trip|
 |20|Apocalyptic|
 |21|Epic|
 
 ### Level 1: Interview test
-- Design goal: Introduce time limit, Introduce line-word limit
+- Design goal: Introduce time limit, Introduce word limit
 - Game goal: Ghost write a novel plot for a minor internet celebrity. 
 - Brief: They're paying good money for this! But obviously not enough for the big shots to care. Write a simple 4 line story for the ~~sweatshop~~ content generation team. While we're not too concerned about the quality since they're trying to scrimp on us, we do care that you finish on time. Get your work in by the end of the day and you're hired! P.S. We'll compensate you with a month-old donut from the breakroom and some Monopoly money we have lying around.
 - Liason: The Creative Director
 - Time limit: 10 min real time or 1 in-game day
-- Line-word limit: Up to 25 words/line, 100 words total
+- Word limit: Up to 25 words/line, 100 words total
 - Promotion: Non-employee to Creative Consultant Intern
   - Perk: You won't starve in the streets next week!
 
@@ -424,7 +499,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 - Brief: Great job, newbie. Welcome to the Firm. Your first official (paid with real money) assignment is to write a film trilogy. The client's (b12) a well-known indie studio that's been churning out B-level movies since before you were born. But need a new trilogy aka a new evergreen property that'll put their names on the map again. So basically, we actually need to kinda try this time. Write up 3 4-line stories using this hot new story structure called Kishotenketsu the Senior Content Consultant teaches you by the end of the day.
 - Liason: The Senior Content Consultant
 - Time limit: 7 min real time or 1 in-game afternoon
-- Line-word limit: Up to 20 words/line, 240 words total
+- Word limit: Up to 20 words/line, 240 words total
 - Promotion: None
   - Perk: Get back to work.
 
@@ -434,7 +509,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 - Brief: Excellent work with that film trilogy, the studio loved it. Now we need you to write up 5-issue, at 4-line each, limited run comic book series for a well-known comics publisher. They're a powerhouse in their industry and definitely someone we want to please. Or else these rabid nerds will have our heads (they've tried before). This time we'll have you learn how to divinate narratives using Tarot cards. It's what we're known for after all. The Other Creative Consultant Intern will help you out with that. Best of luck! If you succeed we'll bump you up to being an official Content Consultant. Not because our workforce keeps burning out and leaving, haha who told you that? Seriously, who.
 - Liason: The Other Creative Consultant Intern
 - Time limit: 5 min real time or 1 in-game work session
-- Line-word limit: Up to 15 words/line, 300 words total
+- Word limit: Up to 15 words/line, 300 words total
 - Promotion: Content Consultant Intern to Content Consultant
   - Perks: 
     - Junior standing. During the next level only. After time's up you can take out up to any 3 words you wrote for the entire assignment. 
@@ -446,7 +521,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 - Brief: The comic book series is a hit! You're doing good. By the way there's a popular rock band out there who's trying to make a concept album that'll shake the charts. They'd do it themselves but management's concerned they're too busy having fun to actually get any work done. Corporate-made bands, am I right? Anyway we're short on staff this time- Oh don't worry, this usually happens at this time of the year. The HR Rep will give you the run-down on incorporating Meta cards into your spread. She's not necessarily an expert on content writing but she knows a thing or two. Get us 8 tracks worth of content at 4 lines for each track by today. Good luck! Oh also, don't do anything stupid; she's a stickler for the rules *groan*.
 - Liason: The HR Rep
 - Time limit: 3.5 min real time or 1/2 in-game work session
-- Line-word limit: Up to 13 words/line, 416 words total
+- Word limit: Up to 13 words/line, 416 words total
 - Promotion: None
   - Perk: Opportunity to use previous level's perk.
 
@@ -456,7 +531,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 - Brief: Wow that album blasted its way to the top of the charts! The record company's saying the band's ingenuity did it, but we all know who the real champs are (us, of course). This assignment's a little weird, though. Don't ask me why, but for some reason the Firm Head's Secretary wants to supervise you. She's capable and knows her way around content thanks to the Head's love for it. Make 10 episodes worth of content at 4 lines per episode... And who knows, maybe she'll bump you up in the ranks if you succeed. Why the sudden promotion? N-no reason! It's not like we're slipping into bankruptcy or anything like that- HAHA who told you that nonsense?
 - Liason: The Secretary
 - Time limit: 2 min real time or 1/2 in-game work session
-- Line-word limit: Up to 8 words/line, 320 words total
+- Word limit: Up to 8 words/line, 320 words total
 - Promotion: Content Consultant to Senior Content Consultant
   - Perks: 
     - Senior standing. During the next level only. After time's up you can switch out up to any 3 words you wrote for the entire assignment. 
@@ -468,7 +543,7 @@ This table's focus is to present themes as genres for accessibility purposes. Si
 - Brief: The Head's been keeping an eye on you and needs your help. The Firm's in danger of shutting down thanks to its funds mysteriously disappearing! Luckily the Firm Head leveraged his contact at a major broadcasting corporation to land a lucrative contract for writing 12 episodes of a new anime show. 4-lines each episode. But you have to finish writing it this second yesterday! Get this rush order out the door so you can save the company!
 - Liason: The Firm Head
 - Time limit: 1.5 min real time or literally right this instant in-game hurry hurry hurry
-- Line-word limit: Up to 5 words/line, 240 words total
+- Word limit: Up to 5 words/line, 240 words total
 - Promotion: Senior Content Consultant to Creative Director
   - Perk: Opportunity to use previous level's perk.
   - You get to witness the Creative Director turn into the Firm Head and grant everyone equitable pay. No more eating stray yarn from strangers' coats at parties!
@@ -496,3 +571,47 @@ Example deliverables include:
 
 
 If the game requires a lot of technical know-how, this is where we give the run-down. While more of an implementation deliverable, the technical overview's still good for giving the development team a sense of how this game will be built (in code, etc).
+
+
+## MDA Framework (experimental)
+
+### Aesthetics/Feels
+1. Expression
+2. Challenge
+3. Education
+4. Discovery
+5. ~~Narrative~~ (On-hold, for full-version if player reaction is favorable.)
+
+### Dynamics/Behavior
+Expression
+- Intuitively interpret card meanings 
+- Write stories w/o a required driving conflict
+
+Challenge
+- Write before time's up
+- Write concisely
+- Write a specific genre
+
+Education
+- Learn reading Tarot cards
+- Learn writing with Kishotenketsu
+
+Discovery
+- Explore the combination of Tarot cards and Kishotenketsu.
+
+### Mechanics/Rules
+Expression
+- Interpret cards based on image, text, and intuition
+- Follow Kishotenketsu structure by using a spread for it
+
+Challenge
+- Time limit
+- Word limit
+- RNG'd Theme
+
+Education
+- Create a keyword for each card and use it in its line.
+- Write a story using Tarot card interpretations according to Kishotenketsu structure
+
+Discovery
+- Write Kishotenketsu narratives using Tarot reading interpretations.
