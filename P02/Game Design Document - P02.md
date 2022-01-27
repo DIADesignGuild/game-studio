@@ -110,23 +110,24 @@ Players can:
    4. Development (Act)
    5. Twist (Act)
    6. Reconciliation (Act)
-2.  Make a list with 1 keyword for each card based on its image, text, and/or your intuition.
+2.  Make a list with 1 keyword for each card based on its image, text, and/or your intuition within 6 minutes.
    1. Reverse the Twist card to use its opposite meaning. 
-   2. If you've already played this game before and pull a card that already has a keyword, create a new one for it.
-3. Take the sum of numerical values of all Meta and Act Cards, plug that value into the Mystic Formula, and referring to the Theme table, choose the theme corresponding the the sum's value.
-4. Create spread.
-   1. Look at the Act cards and note their suites and arcanum. Using these details, refer to the Mystic Questions table and note which questions you must answer while writing. 
-5.  Set the timer and write 1 line of words, up to 8 words per line, for each card within 6 minutes.
+   2. Don't forget to store your list somewhere to grow it!
+   3. If you pull a card that already has a keyword, add a new one for it in your list.
+3. Create spread.
+   1. Take the sum of numerical values of all Meta and Act Cards, plug that value into the Mystic Formula, and choose the theme from the Theme table corresponding the the Mystic Number's value.
+   2. Look at the Act cards and note their suites and arcana. Refer to the Mystic Questions table and choose a question to answer in each Act based on the element with the most number of cards in your spread.
+4.  Set the timer and write 1 line of words, up to 12 words per line, for each card within 12 minutes.
     1.  Use the theme from the table.
-    2.  Each line's keyword must be included at least once.
-    3.  Look at your Act cards. Change the time and word limits based on the combos you find by referring to the Mystic Combos table.
-    4.  For each Act card incorporate the answer to their corresponding question from the Mystic Questions table into the story line.
-6.  If you write within the time and word limits, you've succeeded.
+    2.  Each card's keyword must be included in its line at least once.
+    3.  ~~Look at your Act cards. Change the time and word limits based on the combos you find by referring to the Mystic Combos table.~~
+    4.  While writing, answer the Mystic Question for each Act card's line.
+5.  If you write within the time and word limits, use the theme, include all keywords, and answer the Mystic Question for each act card, you've succeeded.
     1.  If not, restart the timer, keep any complete lines, and discard any unfinished lines.
-    2.  Lower the word limit by 2 words and begin writing.
+    2.  Lower the word limit by 2 words and begin writing again. Feel free to change previous lines.
     3.  If the word limit goes below 0, delete your story and start over from scratch.
     4.  Once you succeed, restore the word limit to its default value.
-7.  If you've succeeded and want to write a sequel story, draw more cards for the Development, Twist, and Conclusion to make a new spread but use your previous Conclusion card as the new Setup card.
+6.  If you've succeeded and want to write a sequel story, draw more cards for the Development, Twist, and Conclusion to make a new spread but use your previous Conclusion card as the new Setup card.
 
 #### Extended rules
 1. Level 0.
@@ -376,15 +377,15 @@ NOTE: For the Aces and Court cards in this game, players assume certain values.
 #### The Mystic Questions
 |Arcanum|Suite|Element|Question|
 |-|-|-|-|
-|Minor|Pentacles|Earth|What sensations is your character experiencing?|
+|Minor|Pentacles|Earth|What sensation(s) does your character experience?|
 ||Swords|Air|What are your character's thoughts centered around?|
-||Cups|Water|What emotions is your character feeling?|
+||Cups|Water|What emotion(s) does your character feel?|
 ||Wands|Fire|What are your character's gut feelings?|
 |Major|N/A|Path|What moral or fundamental truth does your character learn about?|
 
 #### The Mystic Combos
 
-|Combo|#/Suite|Reversed?|Effect|
+|Combo|#/Suite|Any reversed?|Effect|
 |-----|-------|---------|------|
 |4 of a kind|#|N|+3 min|
 |||Y|-3 min|

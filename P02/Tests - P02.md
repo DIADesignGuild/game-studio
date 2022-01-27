@@ -247,14 +247,24 @@ Word limit: 6 words/line
 - Should specify that the list should be a separate document to stash keywords.
   - Google Sheets?
 - What do I do about repeating Mystic Questions?
+  - Make it so that only the dominant element's question is asked.
+  - 1 question for all acts
 - Mystic Combo: Specify that only one of them has to be reversed to count as a Y
   - Just remove the Combos?
+  - Not related to tarot or KSTK
 - Does this really help people read spreads, tho?
+  - Spreads aren't always intimately interconnected (see: the lyrics spread using The Motel's song in SASS server)
+  - [ASSUMPTION] Assuming players understand the KSTK explanation, they'll naturally see if the story they write "makes sense", i.e. they're following the KSTK structure.
 - Do these questions make sense?
+  - Change to answer for each act card
 - Is this too many rules/mechanics?
-- Make sequel story for Test 2
+  - Do I just need to increase the time limit to give them breathing room?
+    - Increase time limit to 12 min.
+    - Increase word limit to 12 words.
+- **Make sequel story for Test 2**
 - 8 words/line might be too little.
   - Should raise it.
+  - Raise it to 12.
 - Add rule for loss where you can change any lines if you need to.
   - This story didn't make sense with how I wrote it.
 - Clarify rules for failure; what else involves failing?
