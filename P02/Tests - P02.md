@@ -270,3 +270,90 @@ Word limit: 6 words/line
 - Clarify rules for failure; what else involves failing?
   - Ex: Not including keywords?
   - What do I do if I realize I didn't include a keyword? Does it count as a failure?
+
+## Test 2
+
+### Cards
+Setting: 2 of Pentacles (R) - Unbalanced
+Character: 4 of Wands (R) - Instability
+Setup: King of Wands (R) - Vicious
+Development: Knight of Swords - Calculating
+Twist: 13 - Death (R) - Stagnation
+Reconciliation: Knight of Wands (R) - Arrogant
+
+### Values
+Sum: 57
+Mystic Number: 13
+Theme: Supernatural
+
+### Question
+Wands: What are your character's gut feelings?
+
+### Limits
+Time limit: 12 minutes
+Word limit: 12 words/line
+
+### Story
+- The world is unbalanced. 
+- Brianne's marriage faces instability. 
+- Brianne wants to scream at husband; he announces divorce at her shop.
+- Her life unravels thanks to her husband's calculating lawyer and mistress.
+- Shop faces stagnation thanks to the divorce until Brianne finds a recording.
+- Husband's arrogance led to video of him clearly cheating. He's ruined.
+
+### Notes
+- What do I do if there's no element with the most cards?
+- Can I have multiple sentences in one line?
+  - Accounted for by "1 line of words"
+- Forgot to incorporate question while writing.
+  - Maybe have another round of writing to incorporate it?
+  - Instead have card's line focus on its element's question?
+  - Yeah, forcing 1 question for all act cards doesn't feel like it works. This reflects a Western approach. Each Act card's quesiton should be individualized for its element.
+    - Ex: If you get a Wand card, you ask a Wand question. Etc.
+    - Maybe this can apply for all cards, not just Acts...
+      - For now, just Act cards
+- Considering I forgot to incorporate questions, 12 min. might actually be too short.
+
+
+## Test 3
+
+### Cards
+Setting: 5 of Cups - Grief
+Character: 9 - The Hermit - Contemplation
+Setup: Ace of Cups (R) - Emptiness
+Development: 16 - The Tower (R) - Construction
+Twist: 17 - The Star (R) - Pessimism
+Reconciliation: Knight of Wands (R) - Reckless
+
+### Values
+Sum: 60
+Mystic Number: 16
+Theme: Tragedy
+
+### Limits
+Time limit: 12 min
+Word limit: 12 words/line
+
+### Story
+- A community suffers from grief after a tragic plane accident.
+- The lone survivor withdrew from the world to sit in contemplation.
+- He feels only emptiness until a letter from his mother arrives.
+- He gains hope by procrastinating on opening it, reconstructing his life.
+- The letter opens itself by accident and he discovers his mother died.
+- He goes on a reckless drive, crashes into a river, and dies.
+
+### Notes
+- **What if we have players answer questions right after making keywords?**
+  - If this doesn't work, I think I should take out the Mystic Questions
+  - Do these questions even make sense? It's hard to retroactively apply them.
+  - What about repeats? Will they just be unecessar?
+  - If we do this without even writing, how will the ?'s even inform the story?
+    - Frame the rule as discovering the character's emotional journey.
+- Do I need to use the exact keyword? Or can I use a different form of it?
+  - Ex: tense
+  - Made it so that players can incorporate keyword as they see fit.
+- I forgot to use the questions again while writing. Had to look at them again afterwards.
+  - Maybe the questions are the issue.
+    - Should test this for v0.4, if they end up in v0.3
+
+#### Just take out Mystic questions

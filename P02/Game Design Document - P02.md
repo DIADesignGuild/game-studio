@@ -110,24 +110,25 @@ Players can:
    4. Development (Act)
    5. Twist (Act)
    6. Reconciliation (Act)
-2.  Make a list with 1 keyword for each card based on its image, text, and/or your intuition within 6 minutes.
+2. Make a list with 1 keyword for each card based on its image, text, and/or your intuition within 6 minutes.
    1. Reverse the Twist card to use its opposite meaning. 
    2. Don't forget to store your list somewhere to grow it!
    3. If you pull a card that already has a keyword, add a new one for it in your list.
-3. Create spread.
+3. ~~Discover your characters' emotional journey within 12 minutes by answering each Act card's Mystic Question, using its keyword and interpreting the card itself.~~
+4. Create spread.
    1. Take the sum of numerical values of all Meta and Act Cards, plug that value into the Mystic Formula, and choose the theme from the Theme table corresponding the the Mystic Number's value.
-   2. Look at the Act cards and note their suites and arcana. Refer to the Mystic Questions table and choose a question to answer in each Act based on the element with the most number of cards in your spread.
-4.  Set the timer and write 1 line of words, up to 12 words per line, for each card within 12 minutes.
+   2. ~~Look at the Act cards and note their suites and arcana. Refer to the Mystic Questions table and choose a question to answer in each Act based on the element with the most number of cards in your spread.~~
+5.  Set the timer and write 1 line of words, up to 12 words per line, for each card within 12 minutes.
     1.  Use the theme from the table.
-    2.  Each card's keyword must be included in its line at least once.
+    2.  Each card's keyword must be incorporated into its line at least once.
     3.  ~~Look at your Act cards. Change the time and word limits based on the combos you find by referring to the Mystic Combos table.~~
-    4.  While writing, answer the Mystic Question for each Act card's line.
-5.  If you write within the time and word limits, use the theme, include all keywords, and answer the Mystic Question for each act card, you've succeeded.
+    4.  ~~While writing, answer the Mystic Question for each Act card's line based on its element.~~
+6.  If you write within the time and word limits, use the theme, include all keywords, ~~and answer the Mystic Question for each act card,~~ you've succeeded.
     1.  If not, restart the timer, keep any complete lines, and discard any unfinished lines.
     2.  Lower the word limit by 2 words and begin writing again. Feel free to change previous lines.
     3.  If the word limit goes below 0, delete your story and start over from scratch.
     4.  Once you succeed, restore the word limit to its default value.
-6.  If you've succeeded and want to write a sequel story, draw more cards for the Development, Twist, and Conclusion to make a new spread but use your previous Conclusion card as the new Setup card.
+7.  If you've succeeded and want to write a sequel story, draw more cards for the Development, Twist, and Conclusion to make a new spread but use your previous Conclusion card as the new Setup card.
 
 #### Extended rules
 1. Level 0.

@@ -149,3 +149,6 @@ Tracking how difficult an assignment is/how important a client is?
 
 
 It's easier to scan for even numbers of words than odd.
+
+
+- TODO Research Tree of Life's worlds' meanings

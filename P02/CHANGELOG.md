@@ -17,9 +17,11 @@
 - DONE What more can I do with card numbers/suites/motifs/etc.?
 - DONE How can I tie in Tarot card meanings to my new understanding of KSTK?
 - Added table of contents.
-- TODO Test 2
-- TODO Add an explanation of KSTK that replaces Conclusion w/ Reconciliation.
-- TODO Add an explanation of KTSK that utilizes updated Research.
+- DONE v0.3 Tests
+- TODO v0.3 shareable prototype
+  - TODO Add an explanation of KSTK that replaces Conclusion w/ Reconciliation.
+  - TODO Add an explanation of KTSK that utilizes updated Research.
+    - TODO Add careful explanation of Twist and Reconciliation
 - DONE Research
   - DONE ~~https://cookiemoon.itch.io/game-designers-tarot~~
   - DONE ~~https://apnews.com/press-release/kisspr/business-lifestyle-marketing-and-advertising-corporate-news-physical-fitness-176d23b5934367d4f5e52905ac984de6~~
