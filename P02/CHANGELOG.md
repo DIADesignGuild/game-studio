@@ -19,9 +19,9 @@
 - Added table of contents.
 - DONE v0.3 Tests
 - TODO v0.3 shareable prototype
-  - TODO Add an explanation of KSTK that replaces Conclusion w/ Reconciliation.
-  - TODO Add an explanation of KTSK that utilizes updated Research.
-    - TODO Add careful explanation of Twist and Reconciliation
+  - DONE Add an explanation of KSTK that replaces Conclusion w/ Reconciliation.
+  - DONE Add an explanation of KTSK that utilizes updated Research.
+    - DONE Add careful explanation of Twist and Reconciliation
 - DONE Research
   - DONE ~~https://cookiemoon.itch.io/game-designers-tarot~~
   - DONE ~~https://apnews.com/press-release/kisspr/business-lifestyle-marketing-and-advertising-corporate-news-physical-fitness-176d23b5934367d4f5e52905ac984de6~~
