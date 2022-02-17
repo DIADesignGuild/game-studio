@@ -1,0 +1,24 @@
+- Games accessibility
+- Documentation
+- https://docs.microsoft.com/en-us/learn/paths/gaming-accessibility-fundamentals/
+- reusable Accessibility components for game making
+- Watching MS's games accessibility vids with Grace and Jessi
+  - accessible games
+- Hopefully: Help studio hone in on types of games to make
+  - HCW build games to be inclusive
+- Welcome kit for apprentices
+- Accessibility as a creative constraint
+- https://en.wikipedia.org/wiki/Real_Sound:_Kaze_no_Regret
+- Concrete deliverable?
+  - Testing
+  - Development
+  - Design
+- Indie mentors
+  - GRUX
+    - Office hours
+    - Mentor program
+  - ADPList
+    - https://adplist.org/mentors/wei-yan
+    - https://adplist.org/mentors/aashrey-sharma
+    - https://adplist.org/mentors/bobby-marcus
+- Indie studio case studies
