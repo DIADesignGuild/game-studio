@@ -3,3 +3,7 @@
   - Twist: I looked for help online and someone mentioned having more than 1 tilemap.
   - Solution: The key lay in the z-indexes and multiple tilemaps. I realized that a better strategy than forcing all tiles to work on 1 tilemap was to keep my original tilemap for the ground tiles and then make _another_ tilemap for the objects. Then I gave the objects tilemap a z-index of 1 while the floor tilemap received a z-index of 0. This way the objects tilemap's contents appear on top of the floor tilemap's contents. But another key was to set the object tilemap's tiles' z-indexes to 1 as well. ~~From the looks of things, it seems that the z-index property reaches across layers.~~
     - **Each layer of tiles should be on separate tilemaps and z-indexes. Each tilemap layer and its objects should share the same z-index.**
+- Why the fuck is making a dialogue system so hard? 
+  - Despite the difficulty, the pursuit of knowledge is... addicting.
+- The purpose of nodes are very confusing... How am I supposed to know if a node won't actually block an object?
+  - What does StaticBody2D vs Area2D matter? Shouldn't I be able to stop both with a child CollisionShape2D node?
