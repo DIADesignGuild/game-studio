@@ -7,3 +7,6 @@
   - Despite the difficulty, the pursuit of knowledge is... addicting.
 - The purpose of nodes are very confusing... How am I supposed to know if a node won't actually block an object?
   - What does StaticBody2D vs Area2D matter? Shouldn't I be able to stop both with a child CollisionShape2D node?
+- Noticeable mood shifts
+  - When I feel accomplished after using Godot, I have a lot more energy
+  - When I feel disappointed or frustrated after using Godot, I have less energy
