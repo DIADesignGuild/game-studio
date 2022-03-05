@@ -27,4 +27,5 @@ Will be referencing these sites for getting the scores:
 Things can be added/modified as needed. Just laying out the basic ideas out for now. (2/3/2022)
 
 Maybe good reference for inspiration: https://mahjong-handle.update.sh/
-- Mahjong Wordle, I like the layout of the tiles, clickable tiles seem good enough. Maybe do something similar, except bigger tiles (3/4/2022)
+- Mahjong Wordle, I like the layout of the tiles, clickable tiles seem good enough. Maybe do something similar, except bigger tiles 
+- plus they also posted the repository for it, so can definitely check it out for reference: https://github.com/yf-dev/mahjong-hand-guessing-game (3/4/2022)
