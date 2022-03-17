@@ -18,6 +18,10 @@ A list of game making tools. All tools on this list follow at least 3 of these c
   - Open-source
   - Free to use
   - No code required
+- [Flickgame](https://www.flickgame.org/)
+- [PuzzleScript](https://www.puzzlescript.net/)
+- [Wick](https://www.wickeditor.com/#/)
+- [Cheap Bots, Done Quick!](https://cheapbotsdonequick.com/)
 
 ## RPG's
 - [RPG Paper Maker](https://wano.itch.io/rpg-paper-maker)
