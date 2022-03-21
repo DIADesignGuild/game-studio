@@ -1,5 +1,7 @@
 # DIA Design Guild's Game Studio
 
+## 👋 What is the DIA Game Studio?
+
 The Game Studio is a place for DIA members to learn game making and produce game-related deliverables.
 
 This repo is used to host studio documentation, game projects, and any other resources we intend to share amongst ourselves.
@@ -10,7 +12,13 @@ Each project has its own folder/directory to host materials. Everything is publi
 
 For questions contact Justin Kim at justin@diadesign.io
 
-## Current projects
+## 👨‍👩‍👧‍👦 Who's part of the studio?
+- Justin Kim
+- Amber Du
+- Alex Forseth
+- Jessi Shakarian
+
+## 📋 What are we working on?
 
 P02
 - Team: Justin
@@ -34,3 +42,16 @@ P00
 - Paused 10/23/21, due to illness.
 - Resumed: 10/27/21
 - Finished: 10/28/21
+
+|ID|Title|Team|Status|
+|-|-|-|-|
+|P05|[Accessibility Toolkit + Onboarding Redesign](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P05%20-%20Accessibility%20%2B%20Onboarding)|Justin|In Progress|
+|||Alex||
+|||Jessi||
+|P04|[Mahjong2022](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P04%20-%20Mahjong2022)|Amber|In Progress|
+|||Justin|||
+|P03|[Godot Self-learning Jam: RPG](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P03)|Justin|Finished|
+|P02|[Kishotenketsu Tarot Game](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P02)|Justin|Finished|
+|P01|[Countdown](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P01)|Justin|Finished|
+|||Amber||
+|P00|[Countdown](https://github.com/DIADesignGuild/game-studio/tree/main/Projects/P00)|Justin|Finished|
