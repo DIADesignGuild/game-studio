@@ -12,6 +12,7 @@ import {
   SHARE_TEXT,
 } from '../../constants/strings'
 
+// TODO: delete this, replace with some way to share score
 type Props = {
   isOpen: boolean
   handleClose: () => void

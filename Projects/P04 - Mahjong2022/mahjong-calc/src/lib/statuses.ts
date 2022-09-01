@@ -3,8 +3,8 @@ import { solution } from './words'
 
 const graphemeSplitter = new GraphemeSplitter()
 
-export type CharStatus = 'absent' | 'present' | 'correct'
-// export type CharStatus = 'normal' | 'winning' // TODO: need to move CharStatus in the flow of the game and possibly remove 90% of this
+export type CharStatus = 'absent' | 'present' | 'correct' | 'winning' | 'cursor' // TODO: need to eventually remove absent/present/correct
+// export type CharStatus = 'winning' // TODO: need to move CharStatus in the flow of the game and possibly remove 90% of this
 
 export type CharValue =
   | '🀇'
@@ -42,7 +42,9 @@ export type CharValue =
   | '🀅'
   | '🀄'
 
-export const getStatuses = (
+// TODO: get rid of references to getGuessStatuses and have it compile alright.. lol
+
+export const getStatuses = ( // TODO: figure out if i should reuse this
   guesses: string[]
 ): { [key: string]: CharStatus } => {
   const charObj: { [key: string]: CharStatus } = {}

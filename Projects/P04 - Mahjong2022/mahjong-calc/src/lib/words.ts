@@ -4,7 +4,7 @@ import { HANDS } from '../constants/hands'
 
 const graphemeSplitter = new GraphemeSplitter()
 
-const tileToAsciiMap: { [id: string]: string } = {
+const tileToAsciiMap: { [id: string]: string } = { //TODO: remember this to incorporate into algorithm
   '🀇': '1m',
   '🀈': '2m',
   '🀉': '3m',

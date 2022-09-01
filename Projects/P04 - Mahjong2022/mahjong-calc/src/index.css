@@ -7,6 +7,10 @@
   animation-duration: 0.15s;
 }
 
+.cell-blink {
+  animation: blinkCell 1s step-end infinite;
+}
+
 @keyframes revealCharCell {
   0% {
     transform: scale(1);
@@ -20,3 +24,21 @@
     transform: scale(1);
   }
 }
+
+/* TODO: figure out how to change border color in dark mode */
+@-webkit-keyframes blinkCell {  
+  from, to {    
+      border-color: transparent    
+  }    
+  50% {    
+      border-color: black    
+  }    
+}    
+@keyframes blinkCell {    
+  from, to {    
+      border-color: transparent    
+  }    
+  50% {    
+      border-color: black    
+  }    
+} 

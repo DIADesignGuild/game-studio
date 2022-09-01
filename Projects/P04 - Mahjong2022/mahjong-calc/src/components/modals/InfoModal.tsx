@@ -13,54 +13,30 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to use" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Use the keyboard to type in your hand in order to calculate how many points it is worth!
-        <br />
-        In each triplet, there will be a hand next to it. You may click it to indicate whether that set is open or closed.
       </p>
 
-      <p className="text-sm text-green-700 dark:text-green-500">
-        Please indicate the winning tile by clicking and holding the tile after typing it in. 
-        <br />
-        The border will change color to indicate that it is selected. This can be reverted by repeating the click and hold.
-      </p>
-      
       <div className="flex justify-center mb-1 mt-4"> 
         <Cell value="🀇" />
         <Cell value="🀈" />
         <Cell value="🀉" />
-        <Cell value="🀜" />
-        <Cell value="🀝" />
-        <Cell value="🀞" />
-        <Cell value="🀔" />
-        <Cell value="🀖" />
-        <Cell value="🀗" status="correct" />
-        <Cell value="🀘" />
-        <Cell value="🀅" />
-        <Cell value="🀅" />
-        <Cell value="🀅" />
-        <Cell value="🀔" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The tile 8s is in the hand and in the correct spot.
+        In each triplet, there will be a hand next to it. 
+        <br />
+        You may click it to indicate whether that set is open or closed.
+        <br />
+        There will also be a checkbox to convert a set to a kan. 
       </p>
-
-      <div className="flex justify-center mb-1 mt-4">
-        <Cell value="🀇" />
-        <Cell value="🀈" />
-        <Cell value="🀉" />
-        <Cell value="🀜" />
-        <Cell value="🀝" status="present" />
-        <Cell value="🀞" />
-        <Cell value="🀔" />
+      
+      <div className="flex justify-center mb-1 mt-4"> 
         <Cell value="🀖" />
-        <Cell value="🀗" />
+        <Cell value="🀗" status="cursor" />
         <Cell value="🀘" />
-        <Cell value="🀅" />
-        <Cell value="🀅" />
-        <Cell value="🀅" />
-        <Cell value="🀔" />
       </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The tile 5p is in the hand but in the wrong spot.
+      <p className="text-sm text-green-700 dark:text-green-500">
+        Please indicate the winning tile by clicking and holding the tile after typing it in. This can be done before or after typing out the entire hand.
+        <br />
+        The border will change color to indicate that it is selected. This can be reverted by repeating the click and hold.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">

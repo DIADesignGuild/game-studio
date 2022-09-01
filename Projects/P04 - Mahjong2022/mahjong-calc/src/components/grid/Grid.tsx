@@ -8,6 +8,7 @@ type Props = {
   currentGuess: string
 }
 
+// TODO: resize grid to fit my needs, may need to recycle CurrentRow and remove EmptyRow/CompletedRow files
 export const Grid = ({ guesses, currentGuess }: Props) => {
   const empties =
     guesses.length < GUESS_MAX - 1

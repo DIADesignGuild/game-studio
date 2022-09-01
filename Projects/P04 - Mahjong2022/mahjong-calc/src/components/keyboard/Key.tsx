@@ -12,6 +12,7 @@ type Props = {
   onClick: (value: KeyValue) => void
 }
 
+// TODO : get rid of statuses in keys (not relevant since it's not a game)
 export const Key = ({
   children,
   status,

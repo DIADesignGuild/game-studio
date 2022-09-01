@@ -35,7 +35,7 @@ import {
   loadGameStateFromLocalStorage,
   saveGameStateToLocalStorage,
 } from './lib/localStorage'
-import { HAND_SIZE, GUESS_MAX } from './constants/settings'
+import { TAIWAN_HAND_SIZE, GUESS_MAX } from './constants/settings'
 
 import './App.css'
 
@@ -147,12 +147,12 @@ function App() {
       if (
         '1' <= value &&
         value <= '9' &&
-        graphemeSplitter.splitGraphemes(currentGuess).length < HAND_SIZE
+        graphemeSplitter.splitGraphemes(currentGuess).length < TAIWAN_HAND_SIZE
       ) {
         setCurrentGuess(`${currentGuess}${value}`)
       } else if (
         value > '9' &&
-        graphemeSplitter.splitGraphemes(trimmedGuess).length < HAND_SIZE
+        graphemeSplitter.splitGraphemes(trimmedGuess).length < TAIWAN_HAND_SIZE
       ) {
         setCurrentGuess(`${trimmedGuess}${value}`)
       }
@@ -172,7 +172,7 @@ function App() {
     if (
       !(
         graphemeSplitter.splitGraphemes(currentGuess.replace(/[1-9]/g, ''))
-          .length === HAND_SIZE
+          .length === TAIWAN_HAND_SIZE
       )
     ) {
       setIsNotEnoughLetters(true)
@@ -198,7 +198,7 @@ function App() {
     const winningWord = isWinningWord(currentGuess)
 
     if (
-      graphemeSplitter.splitGraphemes(currentGuess).length === HAND_SIZE &&
+      graphemeSplitter.splitGraphemes(currentGuess).length === TAIWAN_HAND_SIZE &&
       guesses.length < GUESS_MAX &&
       !isGameWon
     ) {
@@ -251,7 +251,7 @@ function App() {
         isOpen={isInfoModalOpen}
         handleClose={() => setIsInfoModalOpen(false)}
       />
-      <StatsModal
+      <StatsModal // TODO: remove stats modal and replace with flag button that can altername between Taiwan and JP
         isOpen={isStatsModalOpen}
         handleClose={() => setIsStatsModalOpen(false)}
         guesses={guesses}

@@ -1,5 +1,6 @@
 const gameStateKey = 'gameState'
 
+// TODO: save "do not show rules again" checkbox
 type StoredGameState = {
   guesses: string[]
   solution: string

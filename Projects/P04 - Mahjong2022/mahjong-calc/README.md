@@ -1,14 +1,14 @@
-# Mahjong Hand Guessing Game
+# Mahjong Calculator
 
-[https://mahjong-handle.update.sh/](https://mahjong-handle.update.sh/)
+[https://mahjong-calculator.update.sh/](https://mahjong-calculator.update.sh/)
 
-This is a clone project of a popular word guessing game made using React, Typescript, and Tailwind.
+This is a clone project of a Mahjong hand guessing game made using React, Typescript, and Tailwind.
 
 _To Run Locally:_
 Clone the repository and perform the following command line actions:
 
 ```bash
-$ cd mahjong-hand-guessing-game
+$ cd mahjong-calc
 $ npm install
 $ npm run start
 ```
